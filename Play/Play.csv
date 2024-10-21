@@ -1,230 +1,230 @@
-Name,Country,Date,Tags,Industry
-www.eurobulk.gr,Greece,25/9/2024,"Personal Information, Client Documents, Payroll Records, Accounting Files, Contracts, Tax Information",Manufacturing
-www.broadgrain.com,Canada,25/9/2024,Company Analysis ,Commodities
-www.tbmdf.com,United States,27/9/2024,"Invoice Documents, Business Process Documents ",Construction
+Name,Country,Date,Tags,Sector
+www.eurobulk.gr,Greece,25/9/2024,"Personal Information, Client Documents, Payroll Records, Accounting Files, Contracts, Tax Information",Transportation
+www.broadgrain.com,Canada,25/9/2024,Company Analysis ,Agriculture
+www.tbmdf.com,United States,27/9/2024,"Invoice Documents, Business Process Documents ",Industrial Machinery & Equipment.
 www.omega-industries.com,United States,27/9/2024,"Personal Information, Client Documents, Financial Information",Manufacturing
-www.nobleenviro.com,United States,27/9/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Environmental
-www.messec.dk,Denmark,26/9/2024,Operation Documents ,Technology
-www.jacksonpaper.net,United States,26/9/2024,"Operation Documents, Project Documents, Business Process Documents ",Manufacturing
-www.plaistedcompanies.com,United States,24/9/2024,"Personal Information, Client Documents, Financial Information",Retail
-www.multidata.lu,Luxembourg,20/9/2024,Business Process Documents,Technology
-www.hariripontarini.com,Canada,21/9/2024,"Business Process Documents, Invoice Documents",Technology
-www.rsp.ca,Canada,25/9/2024,Client Documents,Financial
+www.nobleenviro.com,United States,27/9/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Environmental Services 
+www.messec.dk,Denmark,26/9/2024,Operation Documents ,Hospitality and Tourism 
+www.jacksonpaper.net,United States,26/9/2024,"Operation Documents, Project Documents, Business Process Documents ",Paper Manufacturing.
+www.plaistedcompanies.com,United States,24/9/2024,"Personal Information, Client Documents, Financial Information",Mining
+www.multidata.lu,Luxembourg,20/9/2024,Business Process Documents,Information Technology (IT)
+www.hariripontarini.com,Canada,21/9/2024,"Business Process Documents, Invoice Documents",Architecture
+www.rsp.ca,Canada,25/9/2024,Client Documents,Accounting Services
 www.pipusa.com,United States,22/9/2024,Not Yet Published,Manufacturing
-www.baskervill.com,United States,22/9/2024,"Project Documents, Business License",Technology
-www.creativeplaythings.com,United States,19/9/2024,"Personal Information, Client Information ",Technology
+www.baskervill.com,United States,22/9/2024,"Project Documents, Business License",Architecture
+www.creativeplaythings.com,United States,19/9/2024,"Personal Information, Client Information ",Retail
 www.dminj.com,United States,19/9/2024,Business Process Documents ,Retail
-www.truefamilyenterprises.com,United States,20/9/2024,"Personal Information, Pharmaceutical Data, Accounting Documents ",Technology
+www.truefamilyenterprises.com,United States,20/9/2024,"Personal Information, Pharmaceutical Data, Accounting Documents ",Venture Capital & Private Equity.
 www.secooler.com,United States,13/9/2024,"Client Information, Customer Information, Personal Documents ",Manufacturing
-www.virginiadare.com,United States,13/9/2024,Not Yet Published,Retail
-www.swartzelectric.com,United States,14/9/2024,Client Documents,Energy
-www.belairbayclub.com,United States,21/9/2024,"Client Documents, Payroll Data, Contracts ",Technology
-www.elginseparationsolutions.com,United States,15/9/2024,"Accounting Documents, Payroll Data, Invoice Documents",Environmental
-www.pwadc.net,United States,15/9/2024,"Company Documents, Project Documents ",Technology
-www.weldco-beales.com,Canada,15/9/2024,"Project Documents, Personal Information ",Construction
-www.evansdist.com,United States,15/9/2024,Not Yet Published,Technology
+www.virginiadare.com,United States,13/9/2024,Not Yet Published,Food and Beverage Industry
+www.swartzelectric.com,United States,14/9/2024,Client Documents,Electrical Services
+www.belairbayclub.com,United States,21/9/2024,"Client Documents, Payroll Data, Contracts ",Social Clubs
+www.elginseparationsolutions.com,United States,15/9/2024,"Accounting Documents, Payroll Data, Invoice Documents",Environmental Services 
+www.pwadc.net,United States,15/9/2024,"Company Documents, Project Documents ",Distribution 
+www.weldco-beales.com,Canada,15/9/2024,"Project Documents, Personal Information ",Manufacturing
+www.evansdist.com,United States,15/9/2024,Not Yet Published,Supply Chain Management
 www.seirus.com,United States,9/9/2024,"Customer Information, Invoice Documents",Retail
-www.craingroup.com,United States,9/9/2024,"Blueprints, Project Documents, IT Documents",Technology
-www.bakersfield.com,United States,9/9/2024,Not Yet Published,Retail
-www.farmersrice.com,United States,12/9/2024,"Personal Information, Client Information, Internal Documents",Construction
+www.craingroup.com,United States,9/9/2024,"Blueprints, Project Documents, IT Documents",Construction
+www.bakersfield.com,United States,9/9/2024,Not Yet Published,Media
+www.farmersrice.com,United States,12/9/2024,"Personal Information, Client Information, Internal Documents",Agriculture
 www.clabots.be,Belgium,2/9/2024,"Invoice Documents, Client Information ",Construction
-www.omicrongranite.net,United States,2/9/2024,Not Yet Published,Technology
-www.universalpure.com,United States,2/9/2024,Not Yet Published,Food and Beverage
-www.abcparts.net,United States,2/9/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Automotive
-www.gdbinternational.com,United States,2/9/2024,"Personal Information, Client Information, Internal Documents",Technology
-www.seadeo.com,United States,31/8/2024,Not Yet Published,Technology
-www.epibreads.com,United States,2/9/2024,"Financial Documents, Employee Documents",Manufacturing
-www.precom-inc.com,United States,30/8/2024,"IT Documents, Contract Documents, Client Information",Construction
-www.microchip.com,United States,29/8/2024,"Personal Information, Client Documents, Financial Records, Payroll Data, Contracts, Tax documents.",Technology
-www.pasolutions.com,United States,26/8/2024,"Insurance Documents, Client Documents",Financial
+www.omicrongranite.net,United States,2/9/2024,Not Yet Published,Construction
+www.universalpure.com,United States,2/9/2024,Not Yet Published,Food Manufacturing
+www.abcparts.net,United States,2/9/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Automotive 
+www.gdbinternational.com,United States,2/9/2024,"Personal Information, Client Information, Internal Documents",Environmental  
+www.seadeo.com,United States,31/8/2024,Not Yet Published,Information Technology (IT)
+www.epibreads.com,United States,2/9/2024,"Financial Documents, Employee Documents",Food and Beverage Industry
+www.precom-inc.com,United States,30/8/2024,"IT Documents, Contract Documents, Client Information",Information Technology (IT)
+www.microchip.com,United States,29/8/2024,"Personal Information, Client Documents, Financial Records, Payroll Data, Contracts, Tax documents.",Manufacturing
+www.pasolutions.com,United States,26/8/2024,"Insurance Documents, Client Documents",Insurance
 www.rcg-llc.com,United States,26/8/2024,Not Yet Published,Real Estate
-www.armourcoatings.com,United States,26/8/2024,"Accounting Documents, Contracts, Legal Information",Technology
-www.thesmsgroup.com,United States,26/8/2024,"IT Documents, Invoice Documents",Manufacturing
-www.eriemeats.com,Canada,19/8/2024,Not Published Yet,Technology
-www.mycinematech.com,United States,19/8/2024,"Payroll Data, Employee Details ",Technology
+www.armourcoatings.com,United States,26/8/2024,"Accounting Documents, Contracts, Legal Information",Manufacturing
+www.thesmsgroup.com,United States,26/8/2024,"IT Documents, Invoice Documents",Information Technology (IT)
+www.eriemeats.com,Canada,19/8/2024,Not Published Yet,Food Manufacturing
+www.mycinematech.com,United States,19/8/2024,"Payroll Data, Employee Details ",Media
 www.adinareyter.com,United States,19/8/2024,"Employee Details, Invoice Documents",Retail
-www.ai-thermal.com,United States,19/8/2024,Not Published Yet,Technology
+www.ai-thermal.com,United States,19/8/2024,Not Published Yet,Automotive 
 www.parkerdevco.com,United States,19/8/2024,Not Published Yet,Construction
 www.millcreeklumber.com,United States,16/8/2024,Not Published Yet,Construction
-www.gridsme.com,United States,18/8/2024,"Plan Documents, Invoice Documents, Client Documents",Technology
-www.telpro1.com,United States,16/8/2024,"Infrastructure Documents, IT Documents, Technical Drawings",Manufacturing
-www.nilorn.com,Sweden,15/8/2024,Client Information  ,Technology
-crediblegroup.com,Canada,15/8/2024,"Financial Records, Contracts, Legal Information",Environmental
-www.kinetx.com,United States,11/8/2024,Not Published Yet,Technology
-www.granitdesign.com,Canada,11/8/2024,"Technical Documents, Design Documents, Client Documents ",Manufacturing
-www.trueblueenvironmental.com,United States,11/8/2024,Not Yet Published,Construction
-www.alternateenergyhawaii.com,United States,11/8/2024,"Financial Records, Contract Documents",Technology
-www.officeops.com,United States,29/7/2024,Not Yet Published,Technology
-www.odysseyfitnesscenter.com,United States,29/7/2024,"Personal Information, Client Information, Financial Records",Technology
-www.goldenbusiness.com,United States,29/7/2024,"Client Documents, Invoice Documents",Technology
+www.gridsme.com,United States,18/8/2024,"Plan Documents, Invoice Documents, Client Documents",Energy
+www.telpro1.com,United States,16/8/2024,"Infrastructure Documents, IT Documents, Technical Drawings",Information Technology (IT)
+www.nilorn.com,Sweden,15/8/2024,Client Information  ,Packaging and Labeling
+crediblegroup.com,Canada,15/8/2024,"Financial Records, Contracts, Legal Information",Interior Design
+www.kinetx.com,United States,11/8/2024,Not Published Yet,Aerospace
+www.granitdesign.com,Canada,11/8/2024,"Technical Documents, Design Documents, Client Documents ",Construction
+www.trueblueenvironmental.com,United States,11/8/2024,Not Yet Published,Environmental Services 
+www.alternateenergyhawaii.com,United States,11/8/2024,"Financial Records, Contract Documents",Energy
+www.officeops.com,United States,29/7/2024,Not Yet Published,Information Technology (IT)
+www.odysseyfitnesscenter.com,United States,29/7/2024,"Personal Information, Client Information, Financial Records",Health
+www.goldenbusiness.com,United States,29/7/2024,"Client Documents, Invoice Documents",Information Technology (IT)
 www.gendroncorp.com,United States,29/7/2024,"Construction Documents, Technical Documents",Construction
-www.gwextrusions.com,United States,29/7/2024,"Technical Documents, Design Documents, Client Documents ",Construction
+www.gwextrusions.com,United States,29/7/2024,"Technical Documents, Design Documents, Client Documents ",Manufacturing
 www.williamsconst.com,United States,29/7/2024,Not Yet Published,Construction
-www.compactmould.com,Canada,29/7/2024,Not Yet Published,Manufacturing
-www.itstaffing.com,United States,29/7/2024,IT Documents,Technology
-www.mips.com,United States,19/7/2024,"IT Documents, Client Information",Technology
-www.haydenpower.com,United States,19/7/2024,Not Yet Published,Technology
-www.congoleum.com,United States,22/7/2024,"Client Documents, Personal Information, Layout Documents ",Manufacturing
-www.tpicorp.com,United States,13/7/2024,Technical Documents ,Manufacturing
+www.compactmould.com,Canada,29/7/2024,Not Yet Published,Plastic Manufacturing
+www.itstaffing.com,United States,29/7/2024,IT Documents,Information Technology (IT)
+www.mips.com,United States,19/7/2024,"IT Documents, Client Information",Semiconductor 
+www.haydenpower.com,United States,19/7/2024,Not Yet Published,Electrical Services
+www.congoleum.com,United States,22/7/2024,"Client Documents, Personal Information, Layout Documents ",Construction
+www.tpicorp.com,United States,13/7/2024,Technical Documents ,Industrial Machinery & Equipment.
 www.21stcenturyenergygroup.com,United States,18/7/2024,Not Yet Published,Energy
-www.texas-ec.org,United States,18/7/2024,Not Yet Published,Technology
+www.texas-ec.org,United States,18/7/2024,Not Yet Published,Energy
 www.hyperice.com,United States,16/7/2024,"Customer Information, Product sheet, Insurance Documents",Manufacturing
 www.fareriassociates.com,United States,11/7/2024,"Layout Design, Bank Details, Invoice Documents",Real Estate
-www.prairieathletic.com,United States,11/7/2024,"Personal Information, Client Information ",Technology
-www.innerspec.com,United States,11/7/2024,"Technical Documents, Design Documents",Manufacturing
+www.prairieathletic.com,United States,11/7/2024,"Personal Information, Client Information ",Health
+www.innerspec.com,United States,11/7/2024,"Technical Documents, Design Documents",Industrial Machinery & Equipment.
 www.inda.org,United States,11/7/2024,Not Yet Published,Manufacturing
-www.texasrecycling.com,United States,11/7/2024,Not Yet Published,Manufacturing
-www.elyriafoundry.com,United States,14/7/2024,Not Yet Published,Technology
+www.texasrecycling.com,United States,11/7/2024,Not Yet Published,Environmental Services 
+www.elyriafoundry.com,United States,14/7/2024,Not Yet Published,Manufacturing
 www.customconcrete.com,United States,26/6/2024,"Client Documents, Technical Documents, Insurance Documents, Personal Documents ",Construction
-www.promotionholdings.com,United States,26/6/2024,IT Documents,Technology
-www.rrcaaccounts.com,United States,26/6/2024,Not Yet Published,Financial
+www.promotionholdings.com,United States,26/6/2024,IT Documents,Public Relations
+www.rrcaaccounts.com,United States,26/6/2024,Not Yet Published,Debt Collection
 www.bungersteel.com,United States,26/6/2024,Not Yet Published,Construction
-www.inquesttechnologies.com,United Kingdom,28/6/2024,Not Yet Published,Technology
+www.inquesttechnologies.com,United Kingdom,28/6/2024,Not Yet Published,Information Technology (IT)
 www.hedrickbrothers.com,United States,28/6/2024,"Client Documents, Technical Documents, Insurance Documents",Construction
-www.belletire.com,United States,28/6/2024,"Private Documents, Customer Information",Retail
+www.belletire.com,United States,28/6/2024,"Private Documents, Customer Information",Automotive 
 www.harveyconst.com,United States,28/6/2024,Not Yet Published,Construction
-www.tpicorp.com,United States,28/6/2024,Not Yet Published,Manufacturing
-www.srfirms.com,United States,18/6/2024,"Client Documents, Project Quotations, Planning Documents",Construction
-www.chromacolors.com,United States,18/6/2024,Not Yet Published,Technology
-www.peteatlanta.com,United States,18/6/2024,"Invoice Documents, Customer Information ",Technology
-www.glit.com,United States,18/6/2024,Trade Documents,Commodities
-www.eaglematerials.com,United States,16/6/2024,"Invoice Documents, Client Documents",Manufacturing
-www.brainworks.com,United States,18/6/2024,Not Yet Published,Technology
-www.3gl.ca,Canada,18/6/2024,Not Yet Published,Technology
-www.freightbillauditor.com,United States,19/6/2024,"Contracts, Payrolls, Employee Information ",Logistics
-www.westmech-hvac.com,United States,19/6/2024,Not Yet Published,Construction
-www.seagulf.com,Canada,19/6/2024,"Contracts, Client Documents",Maritime
-www.kinter.com,United States,17/6/2024,"Payroll Data, Business License ",Technology
-www.corbinturf.com,United States,17/6/2024,"Client Documents, Contracts, Financial Documents",Manufacturing
-www.aircleaningspecialists.com,United States,17/6/2024,"Business Process Documents, Financial Documents ",Manufacturing
-www.dtindustrialflooring.com,United States,17/6/2024,"Client Documents, Contracts",Manufacturing
-www.citybuilders.com,United States,17/6/2024,"Contracts, Accounting Documents, Layout Documents",Technology
-www.rrlaw.ca,Canada,17/6/2024,Not Yet Published,Technology
-www.aldenhoven.nl,Netherlands,17/6/2024,"Contracts, Accounting Documents, Layout Documents",Manufacturing
-www.amarillagas.com,Argentina,17/6/2024,Not Yet Published,Technology
-www.monsterasmetall.se,Sweden,17/6/2024,"Business Process Documents, Financial Documents, Legal Information ",Retail
-www.metooshoes.com,United States,17/6/2024,Not Yet Published,Technology
-www.celluphone.com,United States,17/6/2024,Not Yet Published,Technology
-www.wwp.ch,Switzerland,17/6/2024,Not Yet Published,Legal Service
+www.tpicorp.com,United States,28/6/2024,Not Yet Published,Industrial Machinery & Equipment.
+www.srfirms.com,United States,18/6/2024,"Client Documents, Project Quotations, Planning Documents",Law 
+www.chromacolors.com,United States,18/6/2024,Not Yet Published,Plastic Manufacturing
+www.peteatlanta.com,United States,18/6/2024,"Invoice Documents, Customer Information ",Plastic Manufacturing
+www.glit.com,United States,18/6/2024,Trade Documents,Agriculture
+www.eaglematerials.com,United States,16/6/2024,"Invoice Documents, Client Documents",Construction
+www.brainworks.com,United States,18/6/2024,Not Yet Published,Information Technology (IT)
+www.3gl.ca,Canada,18/6/2024,Not Yet Published,Information Technology (IT)
+www.freightbillauditor.com,United States,19/6/2024,"Contracts, Payrolls, Employee Information ",Logistics 
+www.westmech-hvac.com,United States,19/6/2024,Not Yet Published,Airconditioning
+www.seagulf.com,Canada,19/6/2024,"Contracts, Client Documents",Marine
+www.kinter.com,United States,17/6/2024,"Payroll Data, Business License ",Manufacturing
+www.corbinturf.com,United States,17/6/2024,"Client Documents, Contracts, Financial Documents",Agriculture
+www.aircleaningspecialists.com,United States,17/6/2024,"Business Process Documents, Financial Documents ",Environmental
+www.dtindustrialflooring.com,United States,17/6/2024,"Client Documents, Contracts",Construction
+www.citybuilders.com,United States,17/6/2024,"Contracts, Accounting Documents, Layout Documents",Construction
+www.rrlaw.ca,Canada,17/6/2024,Not Yet Published,Law 
+www.aldenhoven.nl,Netherlands,17/6/2024,"Contracts, Accounting Documents, Layout Documents",Interior Design
+www.amarillagas.com,Argentina,17/6/2024,Not Yet Published,Energy
+www.monsterasmetall.se,Sweden,17/6/2024,"Business Process Documents, Financial Documents, Legal Information ",Wholesale
+www.metooshoes.com,United States,17/6/2024,Not Yet Published,Fashion
+www.celluphone.com,United States,17/6/2024,Not Yet Published,Telecommunications
+www.wwp.ch,Switzerland,17/6/2024,Not Yet Published,Law 
 www.ntv.ca,Canada,2/6/2024,"Media Documents, Accounting Documents ",Media
-www.walser.com,United States,2/6/2024,"Client Documents, Sales Documents",Automotive
-www.elmhurstgroup.com,United States,2/6/2024,"Contracts, Personal Information",Construction
-www.fplfood.com,United States,11/6/2024,"Accounting Documents, Contracts, Legal Information",Retail
-www.creditcentralllc.com,United States,1/6/2024,"Contracts, Insurance Documents ",Technology
-www.levin-porter.com,United States,29/5/2024,"Contracts, Accounting Documents, Layout Documents",Technology
+www.walser.com,United States,2/6/2024,"Client Documents, Sales Documents",Automotive 
+www.elmhurstgroup.com,United States,2/6/2024,"Contracts, Personal Information",Real Estate
+www.fplfood.com,United States,11/6/2024,"Accounting Documents, Contracts, Legal Information",Food and Beverage Industry
+www.creditcentralllc.com,United States,1/6/2024,"Contracts, Insurance Documents ",Debt Collection
+www.levin-porter.com,United States,29/5/2024,"Contracts, Accounting Documents, Layout Documents",Agriculture
 www.semicore.com,United States,29/5/2024,Not Yet Published,Manufacturing
-www.visalighting.com,United States,28/5/2024,Client Information  ,Manufacturing
-www.ardenbrook.com,United States,28/5/2024,Not Yet Published,Construction
-www.rdiglobalhospitality.com,United States,28/5/2024,"Marketing Documents, Contracts",Technology
-www.adn.com,United States,28/5/2024,Not Yet Published,Technology
-www.experistg.com,United States,28/5/2024,Not Yet Published,Technology
-www.freemancompany.com,United States,28/5/2024,Medical Documents,Manufacturing
-www.aspiretax.com,United States,28/5/2024,"Accounting Documents, Financial Documents, Legal Information ",Technology
+www.visalighting.com,United States,28/5/2024,Client Information  ,Light Manufacturing
+www.ardenbrook.com,United States,28/5/2024,Not Yet Published,Real Estate
+www.rdiglobalhospitality.com,United States,28/5/2024,"Marketing Documents, Contracts",Hospitality and Tourism 
+www.adn.com,United States,28/5/2024,Not Yet Published,Media
+www.experistg.com,United States,28/5/2024,Not Yet Published,Information Technology (IT)
+www.freemancompany.com,United States,28/5/2024,Medical Documents,Machinery
+www.aspiretax.com,United States,28/5/2024,"Accounting Documents, Financial Documents, Legal Information ",Accounting Services
 www.samorzad.gov.pl,Poland,28/5/2024,"Contracts, Accounting Documents",Government
 www.tri-stategc.com,United States,28/5/2024,"Business Process Documents, Financial Documents, Legal Information ",Construction
-www.ryderscott.com,United States,28/5/2024,"Financial Information, Client Information, Contracts",Technology
-www.badgertag.com,United States,12/5/2024,Not Yet Published,Technology
-www.nkparts.com,United States,12/5/2024,"Contracts, Accounting Documents, Layout Documents",Manufacturing
-www.livehelpnow.net,United States,12/5/2024,"Business Process Information, Client Documents, Financial Documents",Technology
-www.sentrydatamgt.com,United States,13/5/2024,Not Yet Published,Technology
-www.kcscout.net,United States,13/5/2024,Traffic Information ,Government
-www.uticamack.com,United States,13/5/2024,"Invoice Documents, Client Documents",Automotive
-www.apb-services.com,United States,13/5/2024,"Contracts, Legal Information",Financial
-www.raymon-hvac.com,United States,13/5/2024,"Financial Documents, Employee Documents, Invoice Documents",Construction
-www.somervilleinc.com,United States,13/5/2024,Design Documents ,Technology
-www.mauritzon.net,United States,14/5/2024,"Business Process Documents, Invoice Documents",Manufacturing
-www.hpsllc.us,United States,14/5/2024,Not Yet Published,Technology
+www.ryderscott.com,United States,28/5/2024,"Financial Information, Client Information, Contracts",Professional Services
+www.badgertag.com,United States,12/5/2024,Not Yet Published,Manufacturing
+www.nkparts.com,United States,12/5/2024,"Contracts, Accounting Documents, Layout Documents",Logistics 
+www.livehelpnow.net,United States,12/5/2024,"Business Process Information, Client Documents, Financial Documents",Retail
+www.sentrydatamgt.com,United States,13/5/2024,Not Yet Published,Management 
+www.kcscout.net,United States,13/5/2024,Traffic Information ,Public Safety
+www.uticamack.com,United States,13/5/2024,"Invoice Documents, Client Documents",Automotive 
+www.apb-services.com,United States,13/5/2024,"Contracts, Legal Information",Accounting Services
+www.raymon-hvac.com,United States,13/5/2024,"Financial Documents, Employee Documents, Invoice Documents",Airconditioning
+www.somervilleinc.com,United States,13/5/2024,Design Documents ,Architecture
+www.mauritzon.net,United States,14/5/2024,"Business Process Documents, Invoice Documents",Wholesale
+www.hpsllc.us,United States,14/5/2024,Not Yet Published,Telecommunications
 www.centralcivil.com,United States,14/5/2024,Not Yet Published,Construction
 www.stainlessfoundry.com,United States,5/5/2024,"Personal Information, Database, Client Documents",Manufacturing
-www.profileproducts.com,United States,3/5/2024,Not Yet Published,Environmental
-www.netabn.com,United States,3/5/2024,"IT Documents, Accounting Documents, Taxes ",Technology
+www.profileproducts.com,United States,3/5/2024,Not Yet Published,Environmental Services 
+www.netabn.com,United States,3/5/2024,"IT Documents, Accounting Documents, Taxes ",Information Technology (IT)
 www.canatal.net,United States,2/5/2024,Not Yet Published,Construction
 www.newhudsonfacades.com,United States,1/5/2024,Not Yet Published,Construction
 www.toolmarts.com,United States,1/5/2024,Design Documents ,Manufacturing
 www.lbdc.state.ny.us,United States,1/5/2024,Not Yet Published,Government
-www.yalemortgage.com,United States,2/5/2024,"Financial Documents, Accounting Documents, Client Documents",Technology
-www.precisionfluidcontrols.com,United States,2/5/2024,Not Yet Published,Manufacturing
-www.originalherkimercheese.com,United States,2/5/2024,Not Yet Published,Technology
-www.axip.com,United States,2/5/2024,Not Yet Published,Technology
-www.eaminc.com,United States,24/4/2024,"Business Process Documents, Planning Documents ",Manufacturing
-www.paconvention.com,United States,26/4/2024,Not Yet Published,Technology
-www.sisautomatisering.nl,Netherlands,24/4/2024,Not Yet Published,Technology
-www.alltruckbodies.com.au,Australia,24/4/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Manufacturing
-www.jeowens.com,United States,23/4/2024,"Tax Documents, Financial Documents, Employee Documents",Financial
-www.heritagecooperative.com,United States,16/4/2024,"Business Process Documents, Financial Documents ",Technology
-www.mbtw.com,Canada,16/4/2024,Not Yet Published,Technology
-www.lsnetworks.net,United States,16/4/2024,"IT Documents, Client Documents",Technology
+www.yalemortgage.com,United States,2/5/2024,"Financial Documents, Accounting Documents, Client Documents",Financial Services
+www.precisionfluidcontrols.com,United States,2/5/2024,Not Yet Published,Aerospace
+www.originalherkimercheese.com,United States,2/5/2024,Not Yet Published,Food and Beverage Industry
+www.axip.com,United States,2/5/2024,Not Yet Published,Oil and Gas Industry
+www.eaminc.com,United States,24/4/2024,"Business Process Documents, Planning Documents ",Manufacturing Equipment
+www.paconvention.com,United States,26/4/2024,Not Yet Published,Tourism
+www.sisautomatisering.nl,Netherlands,24/4/2024,Not Yet Published,Information Technology (IT)
+www.alltruckbodies.com.au,Australia,24/4/2024,"Client Information, Bank Statement, Employee Information, Financial Documents, Invoice Documents",Transportation
+www.jeowens.com,United States,23/4/2024,"Tax Documents, Financial Documents, Employee Documents",Accounting Services
+www.heritagecooperative.com,United States,16/4/2024,"Business Process Documents, Financial Documents ",Agriculture
+www.mbtw.com,Canada,16/4/2024,Not Yet Published,Architecture
+www.lsnetworks.net,United States,16/4/2024,"IT Documents, Client Documents",Telecommunications
 www.newwpkg.com,United States,16/4/2024,Not Yet Published,Manufacturing
-www.accessintel.com,United States,16/4/2024,"IT Documents, Client Documents",Technology
-www.theatrixx.com,Canada,16/4/2024,"IT Documents, Financial Documents",Construction
+www.accessintel.com,United States,16/4/2024,"IT Documents, Client Documents",Marketing
+www.theatrixx.com,Canada,16/4/2024,"IT Documents, Financial Documents",Media
 www.moldtechrubber.com,United States,16/4/2024,"Client Information, Bank Statement, Financial Documents, Invoice Documents",Manufacturing
-www.feldsteinandstewart.com,United States,13/4/2024,"Tax Documents, Financial Documents, Employee Documents",Technology
-www.everbrite.com,United States,10/4/2024,"Client Documents, Business Documents",Technology
-www.guysfloor.com,United States,10/4/2024,"Client Documents, Financial Documents",Technology
-www.sitnsleep.com,United States,10/4/2024,"Sales Data, Financial Documents, Employees Documents",Technology
-www.lambdaenergyllc.com,United States,2/4/2024,Not Yet Published,Energy
-www.lsrl.com,United States,4/4/2024,"IT Documents, Clients Documents",Construction
-www.qualityenclosures.com,United States,2/4/2024,"Customer Documents, Accounting Dcouments",Manufacturing
-www.hartz.com,United States,2/4/2024,"Customer Documents, Financial Documents, Employee Documents",Manufacturing
-www.alberlaw.com,United States,2/4/2024,"Law Documents, Client Documents, Employee Documents",Legal Service
-www.festspielhaus.de,Germany,2/4/2024,"Personal Information, Client Documents, Financial Records, Payroll Data",Technology
+www.feldsteinandstewart.com,United States,13/4/2024,"Tax Documents, Financial Documents, Employee Documents",Accounting Services
+www.everbrite.com,United States,10/4/2024,"Client Documents, Business Documents",Manufacturing
+www.guysfloor.com,United States,10/4/2024,"Client Documents, Financial Documents",Construction
+www.sitnsleep.com,United States,10/4/2024,"Sales Data, Financial Documents, Employees Documents",Furniture
+www.lambdaenergyllc.com,United States,2/4/2024,Not Yet Published,Oil and Gas Industry
+www.lsrl.com,United States,4/4/2024,"IT Documents, Clients Documents",Semiconductor 
+www.qualityenclosures.com,United States,2/4/2024,"Customer Documents, Accounting Dcouments",Construction
+www.hartz.com,United States,2/4/2024,"Customer Documents, Financial Documents, Employee Documents",Animal 
+www.alberlaw.com,United States,2/4/2024,"Law Documents, Client Documents, Employee Documents",Law 
+www.festspielhaus.de,Germany,2/4/2024,"Personal Information, Client Documents, Financial Records, Payroll Data",Entertainment
 www.weldplus.com,United States,2/4/2024,"Insurance Documents, Project Documents",Manufacturing
 www.jmthompson.com,United States,2/4/2024,"Project Documents, Employee Documents",Construction
-www.pavilionconstruction.com,United States,30/3/2024,Project Documents,Construction
-www.boingographics.com,United States,30/3/2024,"Client Documents, Accounting Documents",Technology
-www.premiertechnology.net,United States,15/3/2024,"IT Documents, Infrastructure Documents",Technology
-www.sree.com,United States,14/3/2024,Not Yet Published,Technology
-www.bridgerins.com,United States,15/3/2024,Not Yet Published,Technology
-www.bitecsmi.com,United States,15/3/2024,Not Yet Published,Manufacturing
-www.qigroup.ca,Canada,15/3/2024,"Personal Information, Client Documents, Financial Records",Retail
-www.fashions-uk.com,United Kingdom,15/3/2024,Accounting Information,Fashion
-www.grassmidtransportinc.com,United States,15/3/2024,"Design Documents, Financial Documents",Technology
-www.imagepointe.com,United States,15/3/2024,"Invoice Documents, Client Documents",Technology
-www.rudaauto.com,United States,15/3/2024,Business Documents ,Automotive
-www.zsb.ca,Canada,15/3/2024,"Accounting Information, Financiali Documents, Employee Documents",Financial
-www.bechtoldfenster.de,Germany,15/3/2024,Not Yet Published,Retail
-www.schokinag.com,Germany,15/3/2024,"Business Process Documents, Financial Documents, Accounting Documents",Manufacturing
-www.qeo.com,United States,13/3/2024,"Insurance Documents, Customer Documents",Construction
-www.mainvest.com,United States,10/3/2024,Not Yet Published,Technology
-www.continental.aero,United States,9/3/2024,Not Yet Published,Technology
-www.fbiconstruction.com,United States,7/3/2024,"Client Information, Bank Statement, Financial Documents, Invoice Documents",Construction
-www.kool-air-inc.com,Canada,7/3/2024,Not Yet Published,Manufacturing
-www.influencecommunication.com,Canada,7/3/2024,Not Yet Published,Technology
-www.coastalcar.com,United States,7/3/2024,"Product Documents, Invoice Documents",Technology
-www.marketon.com,United States,7/3/2024,"Financial Documents, Employee Documents ",Technology
-www.compactmould.com,Canada,7/3/2024,"Employee Documents, Invoice Documents",Manufacturing
-www.nesmco.com,United States,7/3/2024,Legal Documents,Technology
-www.redrivertitle.com,United States,7/3/2024,Not Yet Published,Technology
-www.hedlundspapper.se,Sweden,7/3/2024,"Employee Documents, Legal Information ",Construction
-www.winonapattern.com,United States,7/3/2024,Not Yet Published,Technology
-www.transplus.io,Canada,7/3/2024,"Business Process Documents, Personal Identifications",Technology
-www.powill.com,United States,7/3/2024,"Personal Information, Client Documents, Financial Records, Payroll Data",Manufacturing
-www.aawireless.us,United States,7/3/2024,"Business Process Documents, IT Documents, Accounting Documents ",Technology
-www.americannuts.com,United States,7/3/2024,"Client Documents, Financial Records, Payroll Data",Manufacturing
-www.skylandgrain.com,United States,7/3/2024,Not Yet Published,Commodities
-www.gilmore-assoc.com,United States,3/3/2024,Not Yet Published,Technology
-www.welchs.com,"Massachusetts, United States",26/2/2024,Not Yet Published,Technology
-www.meerservices.nl,Netherlands,21/2/2024,Client Documents,Technology
-www.onclusive.com,United States,24/2/2024,"HR Documents, Client Documents",Technology
-www.mechreps.com,United States,21/2/2024,"Client Documents, Payment Documents",Manufacturing
-www.hrewell.com www.hytectank.com,United States,21/2/2024,Not Yet Published,Technology
-www.norfoxchem.com,United States,21/2/2024,"Machinery Documents, Contractor Information ",Commodities
-www.vonhagen.net,Germany,21/2/2024,Design Documents,Technology
-www.lddavis.com,United States,21/2/2024,"Machinery Documents, Client Documents",Manufacturing
-www.leadersstaffing.com,United States,11/2/2024,"Business Process Information, Client Documents, Financial Documents",Technology
-www.dcl.org,United States,11/2/2024,"Invoice Documents, Client Documents",Education
-www.pfmgreen.com,United States,11/2/2024,Client Documents ,Technology
-www.winusvilottery.com,United States,11/2/2024,Not Yet Published,Gambling
-www.perry-mccall.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Information",Construction
-www.albertbartlett.com,United States,11/2/2024,"Project Documents, Business Process Documents, Employee Documents",Agriculture
-www.masonconstruction.net,United States,11/2/2024,"Operation Documents, Project Documents, Business Process Documents ",Construction
-www.mcmillanpazdansmith.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Records",Technology
-www.hannontransport.com,United States,11/2/2024,Not Yet Published,Technology
-www.nesmco.com,United States,11/2/2024,Not Yet Published,Manufacturing
-www.aareadymix.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Information",Technology
-www.gll.org,United Kingdom,11/2/2024,Not Yet Published,Technology
-www.modernkitchens.com,United States,11/2/2024,"Client Documents, Accounting Documents, Management Documents",Technology
-www.innovex-inc.com,United States,4/2/2024,"Financial Reports, Client Information",Construction
-www.tpgarchitecture.com,United States,23/1/2024,Not Yet Published,Technology
-www.televerde.com,United States,10/1/2024,Not Yet Published,Marketing
-,,,,
+www.pavilionconstruction.com,United States,30/3/2024,Project Documents,Financial Services
+www.boingographics.com,United States,30/3/2024,"Client Documents, Accounting Documents",Construction
+www.premiertechnology.net,United States,15/3/2024,"IT Documents, Infrastructure Documents",Graphic Design
+www.sree.com,United States,14/3/2024,Not Yet Published,Information Technology (IT)
+www.bridgerins.com,United States,15/3/2024,Not Yet Published,Hospitality and Tourism 
+www.bitecsmi.com,United States,15/3/2024,Not Yet Published,Insurance
+www.qigroup.ca,Canada,15/3/2024,"Personal Information, Client Documents, Financial Records",Manufacturing
+www.fashions-uk.com,United Kingdom,15/3/2024,Accounting Information,Retail
+www.grassmidtransportinc.com,United States,15/3/2024,"Design Documents, Financial Documents",Fashion
+www.imagepointe.com,United States,15/3/2024,"Invoice Documents, Client Documents",Transportation
+www.rudaauto.com,United States,15/3/2024,Business Documents ,Apparel
+www.zsb.ca,Canada,15/3/2024,"Accounting Information, Financiali Documents, Employee Documents",Automotive 
+www.bechtoldfenster.de,Germany,15/3/2024,Not Yet Published,Accounting Services
+www.schokinag.com,Germany,15/3/2024,"Business Process Documents, Financial Documents, Accounting Documents",Retail
+www.qeo.com,United States,13/3/2024,"Insurance Documents, Customer Documents",Food and Beverage Industry
+www.mainvest.com,United States,10/3/2024,Not Yet Published,Transportation
+www.continental.aero,United States,9/3/2024,Not Yet Published,Financial Services
+www.fbiconstruction.com,United States,7/3/2024,"Client Information, Bank Statement, Financial Documents, Invoice Documents",Aerospace
+www.kool-air-inc.com,Canada,7/3/2024,Not Yet Published,Construction
+www.influencecommunication.com,Canada,7/3/2024,Not Yet Published,Manufacturing
+www.coastalcar.com,United States,7/3/2024,"Product Documents, Invoice Documents",Media
+www.marketon.com,United States,7/3/2024,"Financial Documents, Employee Documents ",Aerospace
+www.compactmould.com,Canada,7/3/2024,"Employee Documents, Invoice Documents",Wholesale
+www.nesmco.com,United States,7/3/2024,Legal Documents,Plastic Manufacturing
+www.redrivertitle.com,United States,7/3/2024,Not Yet Published,Construction
+www.hedlundspapper.se,Sweden,7/3/2024,"Employee Documents, Legal Information ",Real Estate
+www.winonapattern.com,United States,7/3/2024,Not Yet Published,Construction
+www.transplus.io,Canada,7/3/2024,"Business Process Documents, Personal Identifications",Manufacturing
+www.powill.com,United States,7/3/2024,"Personal Information, Client Documents, Financial Records, Payroll Data",Transportation
+www.aawireless.us,United States,7/3/2024,"Business Process Documents, IT Documents, Accounting Documents ",Aerospace
+www.americannuts.com,United States,7/3/2024,"Client Documents, Financial Records, Payroll Data",Telecommunications
+www.skylandgrain.com,United States,7/3/2024,Not Yet Published,Food and Beverage Industry
+www.gilmore-assoc.com,United States,3/3/2024,Not Yet Published,Agriculture
+www.welchs.com,"Massachusetts, United States",26/2/2024,Not Yet Published,Construction
+www.meerservices.nl,Netherlands,21/2/2024,Client Documents,Food and Beverage Industry
+www.onclusive.com,United States,24/2/2024,"HR Documents, Client Documents",Automotive 
+www.mechreps.com,United States,21/2/2024,"Client Documents, Payment Documents",Public Relations
+www.hrewell.com www.hytectank.com,United States,21/2/2024,Not Yet Published,Construction
+www.norfoxchem.com,United States,21/2/2024,"Machinery Documents, Contractor Information ",Transportation
+www.vonhagen.net,Germany,21/2/2024,Design Documents,Chemical Manufacturing
+www.lddavis.com,United States,21/2/2024,"Machinery Documents, Client Documents",Supply Chain Management
+www.leadersstaffing.com,United States,11/2/2024,"Business Process Information, Client Documents, Financial Documents",Chemical Manufacturing
+www.dcl.org,United States,11/2/2024,"Invoice Documents, Client Documents",HR Services
+www.pfmgreen.com,United States,11/2/2024,Client Documents ,Education
+www.winusvilottery.com,United States,11/2/2024,Not Yet Published,Environmental Services 
+www.perry-mccall.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Information",Entertainment
+www.albertbartlett.com,United States,11/2/2024,"Project Documents, Business Process Documents, Employee Documents",Construction
+www.masonconstruction.net,United States,11/2/2024,"Operation Documents, Project Documents, Business Process Documents ",Agriculture
+www.mcmillanpazdansmith.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Records",Construction
+www.hannontransport.com,United States,11/2/2024,Not Yet Published,Architecture
+www.nesmco.com,United States,11/2/2024,Not Yet Published,Logistics 
+www.aareadymix.com,United States,11/2/2024,"Personal Information, Client Documents, Financial Information",Airconditioning
+www.gll.org,United Kingdom,11/2/2024,Not Yet Published,Construction
+www.modernkitchens.com,United States,11/2/2024,"Client Documents, Accounting Documents, Management Documents",Leisure
+www.innovex-inc.com,United States,4/2/2024,"Financial Reports, Client Information",Architecture
+www.tpgarchitecture.com,United States,23/1/2024,Not Yet Published,Oil and Gas Industry
+www.televerde.com,United States,10/1/2024,Not Yet Published,Architecture
+,,,,Marketing

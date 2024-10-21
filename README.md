@@ -65,6 +65,19 @@ Shaming websites are used by threat actors as a tool to publicly name victims an
 
 </details>
 
+<details>
+
+<summary>Play Walkthrough</summary>
+
+### Sequence for RansomHub Scripts and Explanation
+
+1. Ransomhub_Scrapper.py
+    - This script automates data scraping from the Play onion site on the Tor Browser within a Kali Linux environment. It extracts victim names, country, the date of the documented exploit, navigates to the subpage URL, and retrieves descriptions, description of company, links to the data and password for the files.
+2. Industry_Play.py
+    - This script utilizes the Jigsawstack prompt engine, based on the scraped descriptions, to generate potential sectors or business industries the victim may belong to. This is then further manually checked through with each victims' domain.
+
+</details>
+
 ## References
 
 https://www.ransomlook.io/
