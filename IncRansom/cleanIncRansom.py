@@ -8,7 +8,7 @@ df = pd.read_csv(file_path)
 def check_country_match(country, country_code):
     country_code_mapping = {
         'United States': 'US',
-        'Great Britain': 'GB',
+        'United Kingdom': 'GB',
         'Canada': 'CA',
         'Germany': 'DE',
         'South Africa': 'ZA',
@@ -20,7 +20,7 @@ def check_country_match(country, country_code):
         'Ireland': 'IE',
         'France': 'FR',
         'Portugal': 'PT',
-        'The Netherlands': 'NL',
+        'Netherlands': 'NL',
         'Czechia': 'CZ',
         'Pakistan': 'PK',
         'The Philippines': 'PH',
