@@ -1,6 +1,6 @@
 import pandas as pd
 
-csv_files = ['RansomHub\RansomHub.csv', 'Play\Play.csv', 'IncRansom\IncRansom_cleaned.csv', 'Blackbasta\BlackBasta_Cleaned_Standardized.csv']  # replace with your actual file paths
+csv_files = ['RansomHub\RansomHub.csv', 'Play\Play.csv', 'IncRansom\IncRansom.csv', 'Blackbasta\BlackBasta.csv']
 
 dfs = [pd.read_csv(file) for file in csv_files]
 
