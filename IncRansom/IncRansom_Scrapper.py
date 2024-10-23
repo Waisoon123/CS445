@@ -11,7 +11,7 @@ def configure_tor_browser():
     options.headless = False  # Set to True if you want to run in headless mode (without opening the browser)
     
     # Path to Tor browser executable (adjust this to where Tor is installed on your system)
-    options.binary_location = r'/home/kali/Desktop/torbrowser.desktop'  # Replace this with the actual path to the Tor Browser in your Kali VM
+    options.binary_location = r'/home/kali/Desktop/torbrowser.desktop'
     
     # Set up Tor's SOCKS5 proxy
     options.set_preference('network.proxy.type', 1)
@@ -106,12 +106,6 @@ try:
                 print(f"Error finding description for {link}: {e}")
                 description = 'N/A'
 
-            # try:
-            #     description = driver.find_element(By.CSS_SELECTOR, "#root .root__container .container .main__container .disclosure__container .announcement__el .action__container .new__el .text-white.text-sm.break-words").text
-            # except Exception as e:
-            #     print(f"Error finding description for {link}: {e}")
-            #     description = 'N/A'
-
             # Extract revenue
             try:
                 revenue = driver.find_element(By.CSS_SELECTOR, "#root .root__container .container .main__container .disclosure__container .announcement__el .action__container .new__el .text-sm.text-white.mb-4").text
@@ -120,7 +114,6 @@ try:
                 description = 'N/A'
             
 
-            
             # Extract all data types under each popover__container
             try:
                 popover_containers = driver.find_elements(By.CSS_SELECTOR, "#root .root__container .container .main__container .disclosure__container .announcement__el .action__container .new__el .flex .popover__container.mr-4")
