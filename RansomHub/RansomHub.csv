@@ -1,12 +1,12 @@
 Name,Date,Tags,Sector,Countries
 wilmingtoncc.org,29/8/2024,"Personal Identifications, Planning Documents, Education Certificates",Healthcare,United States
-www.electriforce.com,27/8/2024,"Financial Documents, Customers and Parters Details, Bank Statements, Human Resource Documents, Company Documents, Adminstrators Documents",Electrical Services,United States
-ciot.com,29/8/2024,Not Yet Published,Interior Renovation,Canada
+www.electriforce.com,27/8/2024,"Financial Documents, Customers and Parters Details, Bank Statements, Human Resource Documents, Company Documents, Adminstrators Documents",Service Provider,United States
+ciot.com,29/8/2024,Not Yet Published,Renovation,Canada
 www.nissan-dubai.com,31/8/2024,"Car Ownership Details, Personal Identifications, QC Inspection Documents, Diagnostic Documents",Automotive,United Arab Emirates
 grant-associates.uk.com,30/8/2024,Not Yet Published,Architecture,United Kingdom
 www.lfewines.com,30/8/2024,"Payments Advice, Order Information",Wine,United States
-www.gruyeria.ch,30/8/2024,"Email Exchanges, Project Documents, Adminstrative Documents, Invoices, Contracts",Interior Renovation,Switzerland
-www.fenceauthority.com,30/8/2024,"Insurance Certificates, Installment Payment, Permit Documents, Employee Identifications",Fence Installation,United States
+www.gruyeria.ch,30/8/2024,"Email Exchanges, Project Documents, Adminstrative Documents, Invoices, Contracts",Renovation,Switzerland
+www.fenceauthority.com,30/8/2024,"Insurance Certificates, Installment Payment, Permit Documents, Employee Identifications",Service Provider,United States
 www.johnkellys.com,30/8/2024,"Order Invoices, Letter Of Credit, Export Document, Product Specification Sheet, Finance Documents",Fragrance,United Kingdom
 www.iph-bet.fr,30/8/2024,"Commercial Documents, Email Exchanges",Construction,France
 www.suvacity.org,30/8/2024,"Budget Documents, Email Exchanges, Certificate of Insurance, Personal Identifications",Public Administration,Fiji
@@ -14,7 +14,7 @@ www.primariatm.ro,30/8/2024,"Company contracts, Educational Certifications, Pers
 www.mineduc.gob.gt,30/8/2024,"Personal Identification, Operational Data, HR Documents, Planning Documents, Database, Staff Documents, Student Documents, Beneficiaries Document",Education,Guatemala
 www.swinburne.edu,30/8/2024,"Personal Identifications, Quotation Documents, Educational Certifications, Applications, Bank Details, Payment Advices, Finance Documents, Audit Documents",Education,Australia
 www.iiitd.ac.in,30/8/2024,"Resumes, Employee Details, School Examination Syallbus Details, Student Details, Hostel Lodging Documents, Budget Documents, Research Projects, Agreement Contracts, Non-Disclosure Agreements, Confidential Offers Documents",Education,India
-www.ramoncorripio.com,30/8/2024,"Contracts, Payment Advices, Personal Identifications",Wholesale Distribution,United States
+www.ramoncorripio.com,30/8/2024,"Contracts, Payment Advices, Personal Identifications",Distributor,United States
 www.timortelecom.tl,30/8/2024,"Service Agreements, Personal Identifcations, Non-Disclosure Agreements, Debt Information, CEO Documents, Finance Documents",Telecommunications,East Timor
 www.citebd.org,30/8/2024,Not Yet Published,Publishing,France
 glasstile.com,17/8/2024,"Financial Documents, Confidential Documents, Databases",Glass Tiles,United States
@@ -24,7 +24,7 @@ dpfza.gov.dj,27/8/2024,"Employee Bank Details, Financial Reporting Documents, Pa
 www.spie-tec.de,26/8/2024,"Contracts, Confidential Engine Documents, Bank Transfers Documents",Engineering,Germany
 htsusa.com,26/8/2024,Not Yet Published,Technology,United States
 www.alabamaplate.com,9/7/2024,"Clients Information, Products Information, Accounting Documents, Budget Documents, HR Documents, Personal Documents, Oracle ERP Information",Manufacturing,United States
-prasarana.com.my,25/8/2024,"Staffs Resignations, Budget Documents, Card Access, Product Specifications, Payment Documents, Personal Documents",Public Transportation,Malaysia
+prasarana.com.my,25/8/2024,"Staffs Resignations, Budget Documents, Card Access, Product Specifications, Payment Documents, Personal Documents",Transportation,Malaysia
 saudi arabia(general secretariat of the military service council),22/8/2024,Not Yet Published,Military,Saudi Arabia
 www.banhampoultry.co.uk,21/8/2024,Not Yet Published,Poultry,United Kingdom
 blowerdempsay.com,20/8/2024,Not Yet Published,Packaging,United States
@@ -32,175 +32,150 @@ inlighten.net,20/8/2024,Not Yet Published,Digital Media,United States
 ccsdschools.com,18/8/2024,"Budget Documents, Personal Identifications, Beneficiary Reports, Payroll Documents",Education,United States
 imobesidade.com.br,14/8/2024,"Patient Records, Personal Identifications",Healthcare,Brazil
 www.manotherm.ie,17/8/2024,Not Yet Published,Industrial Automation,Ireland
-www.netconfig.co.za,17/8/2024,Not Yet Published,"Based on the description provided, the business sector or industry suggested is:
-
-- Information Technology (IT)
-- IT Services
-- Technology Services
-
-More broadly, it can be classified under the following business sectors:
-
-- Technology
-- Software and IT Services
-- Business Services
-
-This classification is based on the company's specialization in the Information Technology and Services area, which is a key indicator of its business sector or industry.",South Africa
+www.netconfig.co.za,17/8/2024,Not Yet Published,Technology,South Africa
 www.regentcaravans.com.au,17/8/2024,Not Yet Published,Recreational Vehicles,Austrailia
 www.vinakom.com,16/8/2024,Not Yet Published,Telecommunications,United States
-nrcollecties.nl,15/8/2024,Not Yet Published,"Based on the description provided, the business sector or industry suggested is likely:
-
-1. E-commerce
-2. Retail
-3. Online Marketplace
-4. Cybercrime (specifically, Ransomware or Data Breach)
-
-However, if we focus on the legitimate business aspect, it appears to be related to:
-
-1. Fashion or Jewelry Retail
-2. Handbag or Accessories Retail
-3. Home Decor or Candle Retail
-
-The company seems to be a small to medium-sized online retailer operating in the Netherlands (NL) and Belgium (BE), selling Indian-inspired jewelry with European style, women's bags, and candlesticks.",Netherlands
-www.aaconsultinc.com,15/8/2024,Not Yet Published,Engineering Consulting,United States
-ljglaw.com,14/8/2024,Not Yet Published,Insurance Defence,United States
-www.atwoodcherny.com,15/8/2024,Client Information,Law,United States
-www.isnart.it,15/8/2024,Not Yet Published,Tourism Research,Italy
+nrcollecties.nl,15/8/2024,Not Yet Published,Jewelry,Netherlands
+www.aaconsultinc.com,15/8/2024,Not Yet Published,Consulting,United States
+ljglaw.com,14/8/2024,Not Yet Published,Legal,United States
+www.atwoodcherny.com,15/8/2024,Client Information,Legal,United States
+www.isnart.it,15/8/2024,Not Yet Published,Tourism,Italy
 police.praca.gov.pl,14/8/2024,Not Yet Published,Law Enforcement,Poland
 bedford.k12.oh.us,12/8/2024,"Budget Documents, Email Exchanges, Financial Documents",Education,United States
 welevelup.com,13/8/2024,"Personal Identification, Patient's Records",Healthcare,United States
 naturalcuriosities.com,11/8/2024,"Private Documents, Databases, Webmails, Source Code",Art,United States
 Jeffersoncountyclerk.org,11/8/2024,"Account Balances, Usernames & Passwords, Clerk Files, Report Documents, Financial Documents, Insurance Documents, Investigation of Employee Documents, Budget Documents, Contracts, 2024 Elections, Board Meeting Minutes",Public Administration,United States
-alliuminteriors.co.nz,9/8/2024,"Private Documents, Databases, Webmails, Source Code",Interior Renovation,New Zealand
+alliuminteriors.co.nz,9/8/2024,"Private Documents, Databases, Webmails, Source Code",Renovation,New Zealand
 lmgroup.com,14/7/2024,Insurance Information,Printing,Canada
 kempe.com.au,9/8/2024,"Recruitment Documents, Legal Documents, Project Quotations, Employee Numbers, Invoices, Customer Documents, Payrolls, Personal Identification, System Compliance, Emails Exchanges, Purchase Orders, Inventory Documents",Engineering,Australia
 mrhme.org,25/7/2024,Not Yet Published,Healthcare,United States
 golfoy.com,8/8/2024,"Private Documents, Databases, Webmails, Source Code",Retail,India
 pierrediamonds.com.au,6/8/2024,"Private Documents, Databases, Webmails, Source Code",Jewelry,Australia
 inv-dar.com,8/8/2024,Not Yet Published,Financial Services,Kuwait
-rationalenterprise.com,8/8/2024,Not Yet Published,Software as a Service,United States
+rationalenterprise.com,8/8/2024,Not Yet Published,Saas,United States
 modernceramics.com,2/8/2024,"Financial Documents, Employers Lists, Customer Information",Manufacturing,United States
 hudsoncivil.com.au,7/8/2024,Not Yet Published,Construction,Australia
 amplicon.com,7/8/2024,"Confidentiality Agreement, Invoices, Customer Information",Industrial Automation,United Kingdom
 www.sobha.com,6/8/2024,Not Yet Published,Real Estate,India
-retaildatallc.com,2/8/2024,Not Yet Published,Retail Intelligence,United States
-www.bahia-principe.com,31/7/2024,"Commercial Documents, Incident Reports, Tax Reports, Guest Contracts, Casino Documents, HR Documents, Procurement Documents",Hospitality and Tourism,Dominican Republic
+retaildatallc.com,2/8/2024,Not Yet Published,Data Analytics,United States
+www.bahia-principe.com,31/7/2024,"Commercial Documents, Incident Reports, Tax Reports, Guest Contracts, Casino Documents, HR Documents, Procurement Documents",Tourism,Dominican Republic
 www.normandydiesel.fr,12/7/2024,"Customer Service Documents, Finance Documents, Logistic & Shipping Documents",Automotive,France
 effinghamschools.com,1/8/2024,Not Yet Published,Education,United States
 mcdowallaffleck.com.au,1/8/2024,"Project Blueprints, Quota Documents, Insurance Documents, Tender and Contract Documents, Client and Partner Information, Personal Identifications",Engneering,Austrailia
 nydj.com,31/7/2024,Not Yet Published,Retail,United States
 wgma.org,31/7/2024,"Contracts, HR Documents, Email Exchanges, Payroll Documents, Project Documents, Access Files, Accounting Documents",Maritime,United States
-verwarmingheyndrickx.be,30/7/2024,"Invoice Documents, Customer Documents",Home Services,Belgium
+verwarmingheyndrickx.be,30/7/2024,"Invoice Documents, Customer Documents",Service Provider,Belgium
 labor-koblenz.de,29/7/2024,Not Yet Published,Healthcare,Germany
-www.castelligroup.com,26/7/2024,"Personal Identifications, Email Exchanges, Financial Documents",Food Production & Gourmet Specialty Foods,Italy
-www.whittakersystem.com,26/7/2024,"Bank Account Statements, Sales Documents",Commercial Carpet Cleaning,United States
+www.castelligroup.com,26/7/2024,"Personal Identifications, Email Exchanges, Financial Documents",F&B,Italy
+www.whittakersystem.com,26/7/2024,"Bank Account Statements, Sales Documents",Service Provider,United States
 www.neurologicalinstitute.com,22/7/2024,"IT & Security Documents, Business Licenses, Credentials, Billing Documents, Incident Reports, Lawsuits, Patients' Records, Personal Identifications",Healthcare,United States
 oficina.oficinadasfinancas.com.br,24/7/2024,"Customers Documents, Employees Documents, Partners Documents, Webmails, Source Code",Financial Services,Brazil
 bpjaguar.com,23/7/2024,"Personal Identifications, Legal Documents",Automotive,Mexico
 ach.co.th,23/7/2024,"Private Documents, Databases, Webmails, Source Code",Insurance,Thailand
 baytoti.com,25/7/2024,Financial Documents,Food,Saudi Arabia
-cminsulation.com,25/7/2024,Not Yet Published,Commercial Mechanical Insulation,United States
-panitchlaw.com,25/7/2024,Not Yet Published,Law,United States
+cminsulation.com,25/7/2024,Not Yet Published,Service Provider,United States
+panitchlaw.com,25/7/2024,Not Yet Published,Legal,United States
 sigmacontrol.eu,23/7/2024,"Meeting Minutes, Marketing Materials, Internet Subscription",Industrial Automation,Netherlands
-www.byzan.com,20/7/2024,Personal Identifications,IT Solutions,India
-www.garudafood.com,20/7/2024,Customer Details,Food & Beverages,Indonesian
+www.byzan.com,20/7/2024,Personal Identifications,Technology,India
+www.garudafood.com,20/7/2024,Customer Details,F&B,Indonesian
 www.kumagaigumi.co.jp,19/7/2024,"Clients Information, Personal Identifications,Contracts Information",Construction,Japan
 www.glowfm.nl,16/7/2024,"Private Documents, Databases, Webmails, Source Code",Radio Broadcasting,Netherlands
-www.newcastlewa.gov,16/7/2024,Personal Identifications,Government Services,United States
-metalfrio.com.br,16/7/2024,"Products Technical Drawings, Financial Information, Suppliers Information, Clients Information, Contracts & NDA agreements",Refrigeration & Cooling Equipments,Brazil
+www.newcastlewa.gov,16/7/2024,Personal Identifications,Government,United States
+metalfrio.com.br,16/7/2024,"Products Technical Drawings, Financial Information, Suppliers Information, Clients Information, Contracts & NDA agreements",Distributor,Brazil
 www.erma-rtmo.it,14/7/2024,"Email Exchanges, Personal Identifcations, Invoices, Financial Reports",Manufacturing,Italy
-pgd.pl,18/7/2024,Not Yet Published,Automotive Dealership,Poland
+pgd.pl,18/7/2024,Not Yet Published,Automotive,Poland
 hlbpr.com,16/7/2024,"Personal Identifications, Payment Information, Confidential Documents",Accounting,Puetro Rico
 ceopag.com.br / ceofood.com.br,16/7/2024,"Private Documents, Databases, Webmails, Source Code",Financial Services,Brazil
 www.benchinternational.com,16/7/2024,Customer Documents,Recruitment,United States
 www.zepter.de,2/7/2024,"Product Technical Drawings, Invoices",Metalworking & Aviation Technology,Germany
 www.riteaid.com,11/7/2024,"Personal Identifications, Customer rewards number",Healthcare,United States
-www.eurostrand.de,11/7/2024,"Bank Documents, Finance Documents, Project Documents, HR Documents",Tourism & Hospitality,Germany
+www.eurostrand.de,11/7/2024,"Bank Documents, Finance Documents, Project Documents, HR Documents",Tourism,Germany
 www.lynchaluminum.com,11/7/2024,"Project Documents, Schemes, Finance Documents, Bank Documents, Accounting Documents, Plan Documents",Manufacturing,United States
 www.netavent.dk,11/7/2024,"Contract Documents, Personal Identifcations, Finance Documents, Project Documents",Manufacturing,Denmark
 www.bfcsolutions.com,11/7/2024,Not Yet Published,Maintenance,United States
 aedifica.com,19/6/2024,"Layout Documents, Legal Information, Non Disclosure Agreements",Architecture,Canada
 baiminstitute.org,3/7/2024,Not Yet Published,Clinical Research,United States
 www.swcs-inc.com,3/7/2024,"Construction Blueprints, Plan Documents",Construction,United States
-www.daesangamerica.com,2/7/2024,"Purchase Contracts, Sales Contracts, Commercial Invoice, Confidentiality Agreements, ",Food,United States
+www.daesangamerica.com,2/7/2024,"Purchase Contracts, Sales Contracts, Commercial Invoice, Confidentiality Agreements, ",F&B,United States
 www.hauptmann.at,29/6/2024,"Personal Identifications, Bank Card Details",Carpentry,Austria
 www.finecopneumatica.com,29/6/2024,Not Yet Published,Industrial Automation,Italy
 www.sfmedical.de,1/7/2024,"Patient Records, Personal Identifications",Healthcare,Germany
-www.nttdata.ro,1/7/2024,Not Yet Published,IT Solutions & Consulting,Japan
-floridahealth.gov,1/7/2024,Not Yet Published,Government Services,United States
+www.nttdata.ro,1/7/2024,Not Yet Published,Consulting,Japan
+floridahealth.gov,1/7/2024,Not Yet Published,Government,United States
 Spandex.com,28/6/2024,Not Yet Published,Digital Media & Signs,Switzerland
 midamea.com,27/6/2024,"Layout Documents, Legal Information, Non Disclosure Agreements",Architecture,South Korea
 equinocioplay.com.br,24/6/2024,"Legal Documents, Personal Documents, Configuration files, Credentials, Itineraries",Streaming,Brazil
 www.sicoob.com.br,1/6/2024,"Personal Identifications, Financial Documents, Non-Disclosure Agreements, Databases",Financial Services,Brazil
-www.cipl.org.in,27/6/2024,Not Yet Published,IT,India
-daniellegroup.com,26/6/2024,Not Yet Published,Clothing Manufacturing,United Kingdom
-coca-cola.com,23/6/2024,"Department documents, Databases",Beverages,Myanmar
+www.cipl.org.in,27/6/2024,Not Yet Published,Technology,India
+daniellegroup.com,26/6/2024,Not Yet Published,Manufacturing,United Kingdom
+coca-cola.com,23/6/2024,"Department documents, Databases",F&B,Myanmar
 www.cloudeurope.it,27/6/2024,"Databases, Personal Identifications, ",Data Management,Italy
-www.mangimifusco.it,26/6/2024,"Personal Identifications, Client Documents, Budget Documents, Payroll Documents, Contract Documents, Taxes, Finance Douments",Animal Food Manufacturing,Italy
-www.harrisranchbeef.com,24/6/2024,Not Yet Published,Food,United States
-bitzsoftwares.com.br,17/6/2024,"Databases, Credentials, Credit Card Details, Personal Identifications",Technology Solutions,Brazil
-multi-wing.com,13/6/2024,"Banking Information, Insurance Documents, Credentials",Industrial Manufacturing,Netherlands
+www.mangimifusco.it,26/6/2024,"Personal Identifications, Client Documents, Budget Documents, Payroll Documents, Contract Documents, Taxes, Finance Douments",Manufacturing,Italy
+www.harrisranchbeef.com,24/6/2024,Not Yet Published,F&B,United States
+bitzsoftwares.com.br,17/6/2024,"Databases, Credentials, Credit Card Details, Personal Identifications",Technology,Brazil
+multi-wing.com,13/6/2024,"Banking Information, Insurance Documents, Credentials",Manufacturing,Netherlands
 www.invisio.com,19/6/2024,"Tender Documents, Email Exchanges, Meeting Minutes, Military Documents, Purchase Documents, Sales Documents",Military,Denmark
-www.liderit.es,17/6/2024,Confidentiality Agreement,IT Consulting,Spain
+www.liderit.es,17/6/2024,Confidentiality Agreement,Consulting,Spain
 parlorenzo.com,16/6/2024,"Customer Information, Personal Identifications",Accounting,Spain
-www.gbricambi.it,20/6/2024,"Sales Documents, Customer Information, Product Documents, Financial Documents, Confidential Agreements",Data Technology,Italy
+www.gbricambi.it,20/6/2024,"Sales Documents, Customer Information, Product Documents, Financial Documents, Confidential Agreements",Technology,Italy
 smicusa.com,11/6/2024,Not Yet Published,Consulting,United States
-www.novabitsrl.it,11/6/2024,Not Yet Published,Construction Materials,Italy
-www.ugrocapital.com,5/6/2024,Not Yet Published,Data Analytics,India
+www.novabitsrl.it,11/6/2024,Not Yet Published,Distributor,Italy
+www.ugrocapital.com,5/6/2024,Not Yet Published,Technology,India
 www.crezit.com,13/5/2024,"Personal Identification, Internal Documents, Customer Documents",Financial Services,Spain
-www.clevo.com.tw,29/5/2024,"Customer Information, Partner Information, Non-Disclosure Agreements, Drawings, Product Developments Documents",Computer Hardware Manufacturing,Taiwan
+www.clevo.com.tw,29/5/2024,"Customer Information, Partner Information, Non-Disclosure Agreements, Drawings, Product Developments Documents",Manufacturing,Taiwan
 Frontier.com,1/6/2024,"Personal Identifications, Credit Scores, Clients Data",Telecommunications,United States
-www.bjurholm.se,28/5/2024,Not Yet Published,Government Services,Sweden
+www.bjurholm.se,28/5/2024,Not Yet Published,Government,Sweden
 www.psgbdvor.rs,28/5/2024,"IT Documents, Accounting Documents, Finance Documents, Project Documents, Client Database, Budget Documents, Taxes, Logistics & Supply Chain Documents, Production Data, HR Documents, Legal Documents, KPI, R&D Documents",Energy,Serbia
 www.acslabtest.com,20/5/2024,"Personal Identifications, Patient Records, Drug Tests, Insurance Data",Healthcare,United States
-www.throttleup.io,20/5/2024,Not Yet Published,IT Consulting,United States
+www.throttleup.io,20/5/2024,Not Yet Published,Consulting,United States
 www.brittanyhorne.com,20/5/2024,Not Yet Published,Consulting,United States
 www.mataderodegijon.es,19/5/2024,Scada Access,Energy,Spain
 www.houstonwastesolutions.com,17/5/2024,"Contract Documents, Client Information",Waste Management,Spain
-www.eastshoresound.com,16/5/2024,Not Yet Published,A/V,United States
-www.chuoss.co.jp,15/5/2024,Not Yet Published,Healthcare IT Services,Japan
-www.oriux.com,15/5/2024,"Accounting Documents, HR Documents, Financial Reports, Clients Information, Contracts",Transportation Technology,United States
+www.eastshoresound.com,16/5/2024,Not Yet Published,Service Provider,United States
+www.chuoss.co.jp,15/5/2024,Not Yet Published,Healthcare,Japan
+www.oriux.com,15/5/2024,"Accounting Documents, HR Documents, Financial Reports, Clients Information, Contracts",Transportation,United States
 www.neodesha.org,14/5/2024,Not Yet Published,Tourism,United States
-www.rockymountainsales.com,14/5/2024,"Contract Information,Internal Documents, Agreement Documents, Invoices, Pricing Documents",Sales & Service,United States
-www.eucatex.com.br,14/5/2024,"Application Source Codes, Financial Documents, Non-Disclosure Agreements, Contractors Information, Clients Information",Interior Services,Brazil
+www.rockymountainsales.com,14/5/2024,"Contract Information,Internal Documents, Agreement Documents, Invoices, Pricing Documents",Consulting,United States
+www.eucatex.com.br,14/5/2024,"Application Source Codes, Financial Documents, Non-Disclosure Agreements, Contractors Information, Clients Information",Renovation,Brazil
 okuant.com,13/5/2024,"Investment Documents,",Real Estate,Spain
 iseta.fr,8/5/2024,Not Yet Published,Education,France
-www.lalengineering.com,7/5/2024,Not Yet Published,Constructions & Engineering,Sri Lanka
+www.lalengineering.com,7/5/2024,Not Yet Published,Construction,Sri Lanka
 www.portosaofrancisco.com.br,6/5/2024,"Accounting Documents, HR Documents, Financial Reports, Reception, Contracts, Operation Documents, Employee Details",Maritime,Brazil
 www.kamojou.co.za,5/5/2024,Not Yet Published,Trading & Procurement,South Africa
-www.thaayakam.co.uk,4/5/2024,Not Yet Published,IT Solutions,United Kingdom
+www.thaayakam.co.uk,4/5/2024,Not Yet Published,Technology,United Kingdom
 www.extraco.ae,2/5/2024,Not Yet Published,Manufacturing,United Arab Emirates
-www.polaris.es,26/4/2024,Not Yet Published,Technology Solutions,Spain
+www.polaris.es,26/4/2024,Not Yet Published,Technology,Spain
 www.jutebag.co.uk,25/4/2024,Not Yet Published,Retail,United Kingdom
-www.precisiontimesystems.com,25/4/2024,"Payment Documents, Business License, Insurance Documents, Business Communications",Technology Solutions,United States
+www.precisiontimesystems.com,25/4/2024,"Payment Documents, Business License, Insurance Documents, Business Communications",Technology,United States
 www.designintoto.com.au,25/4/2024,Not Yet Published,Design,Australia
 www.europeanprof.es,24/4/2024,Credentials,Saftey and Risk Management,Spain
 www.harmanrealtors.com,22/4/2024,Not Yet Published,Real Estate,United States
-nepa.gov.af&dfr.gov.af,22/4/2024,Not Yet Published,Government Services,Afghanistan
+nepa.gov.af&dfr.gov.af,22/4/2024,Not Yet Published,Government,Afghanistan
 www.fabricainfo.com,17/4/2024,"Personal Identifications, Business Documents, Customer Documents",Document Digitalization,Brazil
-www.grupocuevas.es,16/4/2024,Not Yet Published,Home Services,Spain
+www.grupocuevas.es,16/4/2024,Not Yet Published,Service Provider,Spain
 www.eebpsa.com.co,13/4/2024,"Accounting Documents, Internal Management Documents",Energy,Colombia
 www.robesoncoso.org,12/4/2024,"Personal Identifications, Case Records, Licenses, Evidence Reports",Law Enforcement,United States
-www.cyncsolutions.com,9/4/2024,"Backup Storage S3, Third-Pary Companies Data, Server Credentials",IT Solutions,United States
-"Baca County Feedyard, Inc",9/4/2024,Not Yet Published,Animal Food Manufacturing,United States
-www.skywaycoach.ca,8/4/2024,"Customer Data, Driver License, Bills, Payment Documents, Order Histories, Earnings",Transportation Services,Canada
+www.cyncsolutions.com,9/4/2024,"Backup Storage S3, Third-Pary Companies Data, Server Credentials",Technology,United States
+"Baca County Feedyard, Inc",9/4/2024,Not Yet Published,Manufacturing,United States
+www.skywaycoach.ca,8/4/2024,"Customer Data, Driver License, Bills, Payment Documents, Order Histories, Earnings",Transportation,Canada
 www.farmaciaflorio.com,8/4/2024,"Invoice Documents, Delivery Addresses, Database, Orders Information",Healthcare,Italy
 www.nrshealthcare.com,7/4/2024,"Accounting Documents, Financial Reports, HR Documents, Reception, Contracts",Healthcare,United Kingdom
 www.hcisystems.net,6/4/2024,Invoices,Safety and Risk Management,United States
 www.betteraccountingsolutions.com,6/4/2024,Not Yet Published,Accounting,United States
-www.aretusamilano.it,4/4/2024,Not Yet Published,Automotive Repair,Italy
-www.agenciahost.com,3/4/2024,Customer Data,Shared Hosting,Brazil
+www.aretusamilano.it,4/4/2024,Not Yet Published,Service Provider,Italy
+www.agenciahost.com,3/4/2024,Customer Data,Technology,Brazil
 www.pgesco.com,22/3/2024,Not Yet Published,Energy,Egypt
-www.industrialdealimentos.com,20/3/2024,"Databases, Finance Documents, IT Documents, HR Documents, IT Documents, Supplier's Recipes",Food Processing & Manufacturing,United States
-www.lapastina.com,20/3/2024,Not Yet Published,Food & Beverages,Brazil
+www.industrialdealimentos.com,20/3/2024,"Databases, Finance Documents, IT Documents, HR Documents, IT Documents, Supplier's Recipes",Manufacturing,United States
+www.lapastina.com,20/3/2024,Not Yet Published,F&B,Brazil
 www.kovra.com.my,12/3/2024,"Personal Identifications, Customer Information, Payment Documents",Manufacturing,Malaysia
-www.computan.com,11/3/2024,"Customer Information, Personal Identifications, Payment Documents",Software as a Service,United States
-www.scadea.com,10/3/2024,"MySQL Accounts, Personal Identifications, Private Records",IT Consulting,United States
+www.computan.com,11/3/2024,"Customer Information, Personal Identifications, Payment Documents",Saas,United States
+www.scadea.com,10/3/2024,"MySQL Accounts, Personal Identifications, Private Records",Consulting,United States
 www.go4kora.tv,9/3/2024,"Customer Information, Customer Documents",Sports,Tuvalu
-www.rekamy.com,8/3/2024,"Customer Information, Payment Documents, Personal Identifications",Software as a Service,Malaysia
+www.rekamy.com,8/3/2024,"Customer Information, Payment Documents, Personal Identifications",Saas,Malaysia
 www.dvttechnologyltd.com,8/3/2024,"Customer Information, Payment Documents, Personal Identifications",Retail,Ireland
-www.siea.sk,7/3/2024,Not Yet Published,Government Services,Slovakia
+www.siea.sk,7/3/2024,Not Yet Published,Government,Slovakia
 www.spmundi.com.br,7/3/2024,"Customer Information, Documents, Operation Documents",Currency Exchange,Brazil
-www.merchant.id,6/3/2024,Not Yet Published,Technology Solutions,Indonesian
-www.shootinghouse.com.br,28/2/2024,Not Yet Published,Software as a Service,Brazil
+www.merchant.id,6/3/2024,Not Yet Published,Technology,Indonesian
+www.shootinghouse.com.br,28/2/2024,Not Yet Published,Saas,Brazil
 www.headwaterco.com,26/2/2024,"Invoices, Credentials, Payrolls, Taxes, Insurance Documents",Water Treatment,United States
 www.ykp.com.br,7/2/2024,"Finance Documents, Marriage Certificates, Employee Payrolls, Real Estate Loans, Bank Statements, Accounting Documents, Employees Details",Consulting,Brazil
