@@ -1,8 +1,17 @@
 import pandas as pd
 
-csv_files = ['RansomHub\RansomHub.csv', 'Play\Play.csv', 'IncRansom\IncRansom.csv', 'Blackbasta\BlackBasta.csv']
+csv_files = {
+    'RansomHub\RansomHub.csv': 'RansomHub',
+    'Play\Play.csv': 'Play',
+    'IncRansom\IncRansom.csv': 'IncRansom',
+    'Blackbasta\BlackBasta.csv': 'BlackBasta'
+}
 
-dfs = [pd.read_csv(file) for file in csv_files]
+dfs = []
+for file, group in csv_files.items():
+    df = pd.read_csv(file)
+    df['Ransomware Group'] = group
+    dfs.append(df)
 
 merged_df = pd.concat(dfs, ignore_index=True)
 
