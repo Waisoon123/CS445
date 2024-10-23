@@ -6,4 +6,11 @@ dfs = [pd.read_csv(file) for file in csv_files]
 
 merged_df = pd.concat(dfs, ignore_index=True)
 
-merged_df.to_csv('merged_output.csv', index=False)
+merged_df['Date'] = pd.to_datetime(merged_df['Date'], errors='coerce', format='%d/%m/%Y')
+
+# Sort the DataFrame by the 'Date' column from oldest to newest
+sorted_df = merged_df.sort_values(by='Date')
+
+sorted_df['Date'] = sorted_df['Date'].dt.strftime('%d/%m/%Y')
+
+sorted_df.to_csv('merged_output.csv', index=False)
