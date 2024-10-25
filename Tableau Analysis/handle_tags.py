@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV into a DataFrame
-df = pd.read_csv("merged_output.csv")
+df = pd.read_csv("../Cleaning Scripts/merged_output.csv")
 
 # Split the "Tags" column into a list of tags
 df['Tags'] = df['Tags'].str.split(',')
