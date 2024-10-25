@@ -1,0 +1,3273 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.SingleValuePerNestSorting.true...SingleValuePerNestSorting />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='tags_handled' inline='true' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='tags_handled' name='textscan.1sf89ia08vc4rd1f31c090a2w5cw'>
+            <connection class='textscan' directory='C:/Users/Enqi/Documents/GitHub/CS445/Tableau Analysis' filename='tags_handled.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1sf89ia08vc4rd1f31c090a2w5cw' name='tags_handled.csv' table='[tags_handled#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Tags' ordinal='2' />
+            <column datatype='string' name='Sector' ordinal='3' />
+            <column datatype='string' name='Countries' ordinal='4' />
+            <column datatype='string' name='Ransomware Group' ordinal='5' />
+            <column datatype='string' name='Data Type' ordinal='6' />
+            <column datatype='string' name='Sector Type' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1sf89ia08vc4rd1f31c090a2w5cw' name='tags_handled.csv' table='[tags_handled#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='string' name='Tags' ordinal='2' />
+            <column datatype='string' name='Sector' ordinal='3' />
+            <column datatype='string' name='Countries' ordinal='4' />
+            <column datatype='string' name='Ransomware Group' ordinal='5' />
+            <column datatype='string' name='Data Type' ordinal='6' />
+            <column datatype='string' name='Sector Type' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_SG&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tags</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tags]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Tags</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sector]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Sector</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Countries</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Countries]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Countries</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ransomware Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ransomware Group]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Ransomware Group</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Data Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Data Type]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Data Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sector Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sector Type]</local-name>
+            <parent-name>[tags_handled.csv]</parent-name>
+            <remote-alias>Sector Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]&quot;' value='Number Of Cases' />
+          <alias key='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]&quot;' value='% Of Total Cases' />
+        </aliases>
+      </column>
+      <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+      </column>
+      <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+      </column>
+      <column caption='Continent' datatype='string' name='[Calculation_539024587498618881]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Countries] IN (&quot;United States&quot;, &quot;Canada&quot;, &quot;Mexico&quot;, &quot;Puerto Rico&quot;, &quot;Guatemala&quot;, &quot;Dominican Republic&quot;) THEN &quot;North America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Brazil&quot;, &quot;Argentina&quot;, &quot;Colombia&quot;, &quot;Peru&quot;) THEN &quot;South America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Kingdom&quot;, &quot;Germany&quot;, &quot;Italy&quot;, &quot;Spain&quot;, &quot;France&quot;, &quot;Netherlands&quot;, &quot;Belgium&quot;, &quot;Switzerland&quot;, &quot;Sweden&quot;, &quot;Poland&quot;, &quot;Ireland&quot;, &quot;Denmark&quot;, &quot;Portugal&quot;, &quot;Luxembourg&quot;, &quot;Greece&quot;, &quot;Austria&quot;, &quot;Serbia&quot;, &quot;Romania&quot;, &quot;Czechia&quot;, &quot;Slovakia&quot;) THEN &quot;Europe&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;India&quot;, &quot;Japan&quot;, &quot;South Korea&quot;, &quot;Taiwan&quot;, &quot;Thailand&quot;, &quot;Sri Lanka&quot;, &quot;Indonesia&quot;, &quot;Myanmar&quot;, &quot;Pakistan&quot;, &quot;Afghanistan&quot;, &quot;Malaysia&quot;, &quot;Philippines&quot;, &quot;Israel&quot;) THEN &quot;Asia&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Arab Emirates&quot;, &quot;Kuwait&quot;, &quot;Saudi Arabia&quot;) THEN &quot;Middle East&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Australia&quot;, &quot;New Zealand&quot;, &quot;Fiji&quot;, &quot;East Timor&quot;, &quot;Tuvalu&quot;) THEN &quot;Oceania&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Egypt&quot;, &quot;South Africa&quot;, &quot;Djibouti&quot;) THEN &quot;Africa&quot;&#13;&#10;ELSE &quot;Other&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Data Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='tags_handled.csv' datatype='table' name='[__tableau_internal_object_id__].[tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA]' role='measure' type='quantitative' />
+      <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Data Type]' derivation='None' name='[none:Data Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Data Type:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Admin data&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;clerk files&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;delivery addresses&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;engineering&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;internet subscription&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;meeting minutes&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;procurement documents&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;scans and fax&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;vetting forms&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;cad&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;credit scores&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;duty free docs&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;HR data&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;letter of credit&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Password data&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;report documents&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;technical documentation&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;2024 elections&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;case records&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;data mart extractions&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;email exchanges&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;infrastructure documents&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;logistics &amp; supply chain documents&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Personal/User data&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sales data&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;third-pary companies data&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;applications&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;compliance data&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;diagnostic documents&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;executive level data&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;it documents&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;not yet published&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;qa documents&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;service agreements&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;agreement documents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;commercial documents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;design documents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;engineering data&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;inventory documents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;military documents&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Product data&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;schemes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;warehouse information&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;access files&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;casino documents&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;database&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;emails exchanges&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Insurance data&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Marketing data&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;plan documents&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;scada access&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;toxicology&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;board meeting minutes&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;credentialing data&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;driver license&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;hmo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;learning and development&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;partners documents&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;reception&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;system compliance&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3d drawings&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;cad and drawings&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;currency exchange sheet&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;earnings&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;i-9 forms&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;licenses&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Patient/Medical data&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;reports&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;technical documents&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;beneficiaries document&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Contractor data&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;drawings&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Financial data&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;layout design&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ottawa data&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;R&amp;D data&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ssn&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Accounting/Audit data&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ceo documents&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;databases&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Employee data&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;internal documents&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;marriage certificates&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;planning documents&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;scanned documents&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;trade documents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ar records&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Confidential data&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;director level data&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;executive level documents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;itineraries&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Operational data&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;qc inspection documents&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;shared folders&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;backup storage s3&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;configuration files&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;document libraries&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;export document&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;kpi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;oracle erp information&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;quota documents&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;souce code&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;beneficiary reports&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;corrporate data&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;drawings and engineering&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;group data&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;layout documents&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;partner information&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;real estate loans&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ssns&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;budget documents&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;credentials&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;drug tests&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;hostel lodging documents&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Legal data&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Passport data&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;recruitment documents&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tax data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;anatomy)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;common data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;developer data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;evidence reports&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;it &amp; security documents&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;newg&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Project data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;School/Student data&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;webmails&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;action logs&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;change management documentation&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;debt information&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;employers lists&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;internal management documents&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;media documents&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;pricing documents&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;scans&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;traffic information&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;401k forms&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;car ownership details&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;current and old)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;education certificates&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;incident reports&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;loans&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Payment/Payroll/Billing data&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;resumes&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;technical drawings&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bank data&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Construction data&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;documents&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;field service management procedures&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;lab data&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Order data&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;quotation documents&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;source code&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;application source codes&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Company data&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;developer handover checklists&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;executive and governance data&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;it data&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;not published yet&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;qa data&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;server credentials&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;1099 information&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;case data&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Customer data&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;educational certifications&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;incidents&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;logistic &amp; shipping documents&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;permit documents&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;rm/rmcorp&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;tender documents&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_508062339990908929:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;not published yet&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;not yet published&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Countries:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tuvalu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Peru&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;East Timor&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Serbia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;South Africa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Portugal&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;South Korea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sweden&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;New Zealand&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Romania&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mexico&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Netherlands&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Slovakia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Pakistan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Spain&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thailand&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Puerto Rico&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Switzerland&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Myanmar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Poland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Taiwan&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Ransomware Group:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;BlackBasta&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;RansomHub&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Play&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;IncRansom&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Singapore&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='tags_handled.csv' id='tags_handled.csv_5C5ED8C5814F43D0BC948C748E65EBBA'>
+            <properties context=''>
+              <relation connection='textscan.1sf89ia08vc4rd1f31c090a2w5cw' name='tags_handled.csv' table='[tags_handled#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_SG' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='string' name='Tags' ordinal='2' />
+                  <column datatype='string' name='Sector' ordinal='3' />
+                  <column datatype='string' name='Countries' ordinal='4' />
+                  <column datatype='string' name='Ransomware Group' ordinal='5' />
+                  <column datatype='string' name='Data Type' ordinal='6' />
+                  <column datatype='string' name='Sector Type' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Q1 Continent'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Attacks by Continents</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column caption='Continent' datatype='string' name='[Calculation_539024587498618881]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Countries] IN (&quot;United States&quot;, &quot;Canada&quot;, &quot;Mexico&quot;, &quot;Puerto Rico&quot;, &quot;Guatemala&quot;, &quot;Dominican Republic&quot;) THEN &quot;North America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Brazil&quot;, &quot;Argentina&quot;, &quot;Colombia&quot;, &quot;Peru&quot;) THEN &quot;South America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Kingdom&quot;, &quot;Germany&quot;, &quot;Italy&quot;, &quot;Spain&quot;, &quot;France&quot;, &quot;Netherlands&quot;, &quot;Belgium&quot;, &quot;Switzerland&quot;, &quot;Sweden&quot;, &quot;Poland&quot;, &quot;Ireland&quot;, &quot;Denmark&quot;, &quot;Portugal&quot;, &quot;Luxembourg&quot;, &quot;Greece&quot;, &quot;Austria&quot;, &quot;Serbia&quot;, &quot;Romania&quot;, &quot;Czechia&quot;, &quot;Slovakia&quot;) THEN &quot;Europe&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;India&quot;, &quot;Japan&quot;, &quot;South Korea&quot;, &quot;Taiwan&quot;, &quot;Thailand&quot;, &quot;Sri Lanka&quot;, &quot;Indonesia&quot;, &quot;Myanmar&quot;, &quot;Pakistan&quot;, &quot;Afghanistan&quot;, &quot;Malaysia&quot;, &quot;Philippines&quot;, &quot;Israel&quot;) THEN &quot;Asia&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Arab Emirates&quot;, &quot;Kuwait&quot;, &quot;Saudi Arabia&quot;) THEN &quot;Middle East&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Australia&quot;, &quot;New Zealand&quot;, &quot;Fiji&quot;, &quot;East Timor&quot;, &quot;Tuvalu&quot;) THEN &quot;Oceania&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Egypt&quot;, &quot;South Africa&quot;, &quot;Djibouti&quot;) THEN &quot;Africa&quot;&#13;&#10;ELSE &quot;Other&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_539024587498618881]' derivation='None' name='[none:Calculation_539024587498618881:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]' value='137' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]</cols>
+      </table>
+      <simple-id uuid='{3B861924-0AA9-4FD7-B322-C1C4123B1BA6}' />
+    </worksheet>
+    <worksheet name='Q1 Continent (with countries)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Attacks by Continents</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column caption='Continent' datatype='string' name='[Calculation_539024587498618881]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Countries] IN (&quot;United States&quot;, &quot;Canada&quot;, &quot;Mexico&quot;, &quot;Puerto Rico&quot;, &quot;Guatemala&quot;, &quot;Dominican Republic&quot;) THEN &quot;North America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Brazil&quot;, &quot;Argentina&quot;, &quot;Colombia&quot;, &quot;Peru&quot;) THEN &quot;South America&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Kingdom&quot;, &quot;Germany&quot;, &quot;Italy&quot;, &quot;Spain&quot;, &quot;France&quot;, &quot;Netherlands&quot;, &quot;Belgium&quot;, &quot;Switzerland&quot;, &quot;Sweden&quot;, &quot;Poland&quot;, &quot;Ireland&quot;, &quot;Denmark&quot;, &quot;Portugal&quot;, &quot;Luxembourg&quot;, &quot;Greece&quot;, &quot;Austria&quot;, &quot;Serbia&quot;, &quot;Romania&quot;, &quot;Czechia&quot;, &quot;Slovakia&quot;) THEN &quot;Europe&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;India&quot;, &quot;Japan&quot;, &quot;South Korea&quot;, &quot;Taiwan&quot;, &quot;Thailand&quot;, &quot;Sri Lanka&quot;, &quot;Indonesia&quot;, &quot;Myanmar&quot;, &quot;Pakistan&quot;, &quot;Afghanistan&quot;, &quot;Malaysia&quot;, &quot;Philippines&quot;, &quot;Israel&quot;) THEN &quot;Asia&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;United Arab Emirates&quot;, &quot;Kuwait&quot;, &quot;Saudi Arabia&quot;) THEN &quot;Middle East&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Australia&quot;, &quot;New Zealand&quot;, &quot;Fiji&quot;, &quot;East Timor&quot;, &quot;Tuvalu&quot;) THEN &quot;Oceania&quot;&#13;&#10;ELSEIF [Countries] IN (&quot;Egypt&quot;, &quot;South Africa&quot;, &quot;Djibouti&quot;) THEN &quot;Africa&quot;&#13;&#10;ELSE &quot;Other&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_539024587498618881]' derivation='None' name='[none:Calculation_539024587498618881:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]' value='137' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]</cols>
+      </table>
+      <simple-id uuid='{EC01B5CD-C276-45D7-AF1F-2F8CCC44FF44}' />
+    </worksheet>
+    <worksheet name='Q1 Map View'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Distribution of Attacks Map View</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Longitude (generated)]' field-type='quantitative' max='62319676.260921806' min='14075994.193638565' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Latitude (generated)]' field-type='quantitative' max='11957569.08231484' min='-6832681.8896135222' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' palette='red_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' />
+              <lod column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' />
+              <geometry column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Latitude (generated)]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{7B016E55-BA68-4E53-83BB-0B6BFEEB1AE3}' />
+    </worksheet>
+    <worksheet name='Q1 Table View'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Summary Of Targeted Countries (%)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='250' />
+            <format attr='text-format' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]' value='N' />
+            <format attr='text-align' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='center' />
+            <format attr='vertical-align' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' value='196' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='center' />
+            <format attr='vertical-align' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='center' />
+            <format attr='text-orientation' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{DE95D4FA-44FA-4267-BB2B-C4B74AC96362}' />
+    </worksheet>
+    <worksheet name='Q2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Overview of sectors targeted (countries)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]</cols>
+      </table>
+      <simple-id uuid='{5EF4CD65-84D2-46DD-A424-88339BF67C2A}' />
+    </worksheet>
+    <worksheet name='Q2 by countries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Overview of sectors targeted (countries)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]</cols>
+      </table>
+      <simple-id uuid='{8DA20755-8430-461B-91E8-39DD657F65FF}' />
+    </worksheet>
+    <worksheet name='Q2 number'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Countries Which Paid Ransom</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tags]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not published yet&quot;' />
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not yet published&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Name:qk]' scope='rows' value='Number of Companies that Paid Ransom' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]</cols>
+      </table>
+      <simple-id uuid='{F1BA2B15-80BB-4C54-B43A-3E351DEC5BFC}' />
+    </worksheet>
+    <worksheet name='Q2 percentage'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Countries Which Paid Ransom (Percentage)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tags]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]'>
+            <groupfilter function='level-members' level='[none:Calculation_508062339990908929:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]</cols>
+      </table>
+      <simple-id uuid='{5D450254-BF31-4352-B97D-072B04359122}' />
+    </worksheet>
+    <worksheet name='Q2 table'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Overview of sectors targeted (countries)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='% Of Attacks' datatype='real' default-format='p0.00%' name='[Calculation_1266074452141674502]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNTD([Name]) / SUM({ FIXED : COUNTD([Name]) })' />
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1266074452141674502]' derivation='User' name='[usr:Calculation_1266074452141674502:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]' value='336' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{2B67B204-5FF8-463D-9AD0-50CD8BB28503}' />
+    </worksheet>
+    <worksheet name='Q3 Activities by Month &amp; Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Ransomware Group Acitivities by Month and Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='Count' name='[cnt:Ransomware Group:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month' name='[mn:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Ransomware Group:qk]' shelf='rows'>
+              <sort-filter-info>
+                <sort-filter level-name='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' member-value='&quot;RansomHub&quot;' />
+              </sort-filter-info>
+            </shelf-sort-v2>
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' value='136' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[mn:Date:ok]' value='116' />
+            <format attr='height-header' value='36' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Ransomware Group:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[mn:Date:ok] / [federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk])</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]</cols>
+      </table>
+      <simple-id uuid='{D077CE25-C460-42FC-A86B-22C00AEB39F6}' />
+    </worksheet>
+    <worksheet name='Q3 Bar View'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Cases (Ransomware Group)
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]' scope='rows' value='Number of Cases' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' value='120' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]</cols>
+      </table>
+      <simple-id uuid='{BA2B80E4-A400-4DC8-A7E0-844DFA85341D}' />
+    </worksheet>
+    <worksheet name='Q3 Monthly Distribution'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Monthly Case Distribution by Ransomware Group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Countries]' derivation='CountD' name='[ctd:Countries:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]' scope='rows' value='Number of Cases' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:ok]' value='107' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+              <lod column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Countries:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:ok]</cols>
+      </table>
+      <simple-id uuid='{57A6E368-1942-474A-BE80-CEAC47D0F5B8}' />
+    </worksheet>
+    <worksheet name='Q4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of cases by sector type (countries)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Countries]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Countries]' derivation='None' name='[none:Countries:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]' scope='cols' value='Number Of Cases' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[ctd:Name:qk]</cols>
+      </table>
+      <simple-id uuid='{5408F1B5-589B-47E2-9B86-DC9394DD2E9B}' />
+    </worksheet>
+    <worksheet name='Q5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Constitution of Each Data Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Data Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tags]' role='dimension' type='nominal' />
+            <column-instance column='[Tags]' derivation='Count' name='[cnt:Tags:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Data Type]' derivation='None' name='[none:Data Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Tags]' derivation='None' name='[none:Tags:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Tags:nk]' />
+              <groupfilter function='member' level='[none:Tags:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk]' shelf='rows' />
+          </_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='114' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk]' value='428' />
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='152' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Tags:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk] / [federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Tags:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{AC54AB2D-59A4-4D19-A2A8-9F55883C6C4D}' />
+    </worksheet>
+    <worksheet name='Q5 by Industry'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Types of Data Stolen (by Industry)
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Data Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector Type]' role='dimension' type='nominal' />
+            <column-instance column='[Data Type]' derivation='Count' name='[cnt:Data Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Data Type]' derivation='None' name='[none:Data Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector Type]' derivation='None' name='[none:Sector Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='77' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='39' />
+            <format attr='height' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='21' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Data Type:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector Type:nk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]</cols>
+      </table>
+      <simple-id uuid='{5ACD9143-407D-45CC-A444-E65089C0716B}' />
+    </worksheet>
+    <worksheet name='Q5 by Ransomware Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Types of Data Each Ransomware Group Stole</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='string' name='[Data Type]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Data Type]' derivation='Count' name='[cnt:Data Type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Data Type]' derivation='None' name='[none:Data Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' value='117' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='39' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Data Type:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]</cols>
+      </table>
+      <simple-id uuid='{FD60D5CF-CD15-4C12-B459-721DC17DA79A}' />
+    </worksheet>
+    <worksheet name='Q6 (Insight 2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Companies who paid ransom</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Sector]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tags]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sector]' derivation='None' name='[none:Sector:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not published yet&quot;' />
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not yet published&quot;' />
+            </groupfilter>
+          </filter>
+          <_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+            <single-value-per-nest-shelf-sort dimension-to-sort='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Name:nk]' direction='ASC' measure-to-sort-by='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' shelf='rows' />
+          </_.fcp.SingleValuePerNestSorting.true...single-value-per-nest-shelf-sorts>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='329' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+              <text column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Name:nk] / [federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{7F5CA141-5B1E-41B2-9765-045BD39120AE}' />
+    </worksheet>
+    <worksheet name='Q6 (Insight 3)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>No. of Companies that Paid Ransom Over Time</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+            </column>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Tags]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not published yet&quot;' />
+              <groupfilter function='member' level='[none:Calculation_508062339990908929:nk]' member='&quot;not yet published&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Name:qk]' scope='rows' value='No. of Cases' />
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:qk]' scope='cols' value='Months' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:qk]' value='114' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Name:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{17F4C33B-7ADB-40D1-B04B-784AB90E25DA}' />
+    </worksheet>
+    <worksheet name='Timeline (by Month)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Timeline (by Month)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='Count' name='[cnt:Ransomware Group:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Ransomware Group:qk]' scope='rows' value='No. of Attacks' />
+            <format attr='title' class='0' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:qk]' scope='cols' value='Months' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.84558010101318359' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Ransomware Group:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{F2A6251B-5CC4-4A9A-BF68-D483198586DE}' />
+    </worksheet>
+    <worksheet name='Timeline (by days)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Ransomware Group]' role='dimension' type='nominal' />
+            <column-instance column='[Ransomware Group]' derivation='Count' name='[cnt:Ransomware Group:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ransomware Group]' derivation='None' name='[none:Ransomware Group:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.84558010101318359' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[cnt:Ransomware Group:qk]</rows>
+        <cols>[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[tdy:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{67247E23-7544-4A8C-94F0-421A665DB94E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Q1 Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1500' minheight='800' minwidth='1500' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98934' x='533' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='49467' x='533' y='1000'>
+              <zone h='49000' id='3' name='Q1 Map View' w='49467' x='533' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Q1 Table View' w='49467' x='533' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='742' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='49467' x='50000' y='1000'>
+              <zone h='10125' id='8' name='Q1 Map View' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' type-v2='color' w='49467' x='50000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='87875' id='26' name='Q1 Continent' w='49467' x='50000' y='11125'>
+                <layout-cache cell-count-w='7' minheight='206' non-cell-size-w='78' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='31' param='vert' type-v2='layout-flow' w='98934' x='533' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Q1 Map View' w='49467' x='533' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10125' id='8' name='Q1 Map View' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' type-v2='color' w='49467' x='50000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='87875' id='26' is-fixed='true' name='Q1 Continent' w='49467' x='50000' y='11125'>
+                  <layout-cache cell-count-w='7' minheight='206' non-cell-size-w='78' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Q1 Table View' w='49467' x='533' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C63614E5-0D9D-4C22-8C0C-4B6C18D5626B}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Q2 Overview'>
+      <style />
+      <size maxheight='1000' maxwidth='1000' minheight='1000' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98400' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='800'>
+            <zone h='98400' id='5' type-v2='layout-basic' w='98400' x='800' y='800'>
+              <zone h='49200' id='3' name='Q2' w='79293' x='800' y='800'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49200' id='9' name='Q2 table' w='98400' x='800' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49200' id='8' name='Q2' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type-v2='color' w='19107' x='80093' y='800'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='49200' id='3' is-fixed='true' name='Q2' w='79293' x='800' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='49200' id='8' name='Q2' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type-v2='color' w='19107' x='80093' y='800'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49200' id='9' is-fixed='true' name='Q2 table' w='98400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1387DD28-53CE-48D3-8B49-9197CD3EE1C3}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Q3 Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='84700' x='800' y='1000'>
+              <zone h='42375' id='3' name='Q3 Bar View' w='42350' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='55625' id='10' name='Q3 Activities by Month &amp; Country' w='84700' x='800' y='43375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='42375' id='11' name='Q3 Monthly Distribution' w='42350' x='43150' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='137' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='13700' x='85500' y='1000'>
+              <zone h='16750' id='8' name='Q3 Bar View' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='13700' x='85500' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='32' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='42375' id='3' is-fixed='true' name='Q3 Bar View' w='42350' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13250' id='8' name='Q3 Bar View' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='13700' x='85500' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42375' id='11' is-fixed='true' name='Q3 Monthly Distribution' w='42350' x='43150' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55625' id='10' is-fixed='true' name='Q3 Activities by Month &amp; Country' w='84700' x='800' y='43375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{80E15E4C-8859-4CF0-B000-25D9AD914AE3}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Q5 Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1500' minheight='800' minwidth='1500' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98934' x='533' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='84201' x='533' y='1000'>
+              <zone h='98000' id='3' name='Q5 by Ransomware Group' w='46000' x='533' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='98000' id='9' name='Q5' w='38201' x='46533' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='221' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='14733' x='84734' y='1000'>
+              <zone h='16750' id='8' name='Q5 by Ransomware Group' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='14733' x='84734' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='81250' id='10' name='Q5' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' type-v2='color' w='14733' x='84734' y='17750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='31' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Q5 by Ransomware Group' w='46000' x='533' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13250' id='8' name='Q5 by Ransomware Group' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='14733' x='84734' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Q5' w='38201' x='46533' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='84750' id='10' name='Q5' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' type-v2='color' w='14733' x='84734' y='14250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{57C64272-9612-4533-8B2D-0A8FFA2B8F37}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Q6 (Insight 3) Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1100' minheight='800' minwidth='1100' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='tags_handled' name='federated.0cw0c7y0e9ymz51dzoljt1aqvezl' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0cw0c7y0e9ymz51dzoljt1aqvezl'>
+        <column caption='Filtered Tags' datatype='string' name='[Calculation_508062339990908929]' role='dimension' type='nominal'>
+          <calculation class='tableau' formula='IF CONTAINS([Tags], &quot;not published yet&quot;) OR CONTAINS([Tags], &quot;not yet published&quot;) THEN [Tags]&#13;&#10;ELSE NULL&#13;&#10;END' />
+        </column>
+        <column-instance column='[Calculation_508062339990908929]' derivation='None' name='[none:Calculation_508062339990908929:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98546' x='727' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82455' x='727' y='1000'>
+              <zone h='49000' id='3' name='Timeline (by Month)' w='82455' x='727' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49000' id='9' name='Q6 (Insight 3)' w='82455' x='727' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='177' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16091' x='83182' y='1000'>
+              <zone h='16750' id='8' name='Timeline (by Month)' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='16091' x='83182' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='18500' id='10' name='Q6 (Insight 3)' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type-v2='filter' w='16091' x='83182' y='17750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='750' minheight='750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='22' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='21' param='vert' type-v2='layout-flow' w='98546' x='727' y='1000'>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Timeline (by Month)' w='82455' x='727' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='16750' id='8' name='Timeline (by Month)' pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type-v2='color' w='16091' x='83182' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='18500' id='10' mode='checkdropdown' name='Q6 (Insight 3)' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type-v2='filter' w='16091' x='83182' y='17750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Q6 (Insight 3)' w='82455' x='727' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1D6D71E5-DD1A-42F2-9770-00AB5569501B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='44'>
+    <window class='worksheet' name='Timeline (by days)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BF429F57-D3CF-415C-9807-9D7C94F657CD}' />
+    </window>
+    <window class='worksheet' name='Timeline (by Month)'>
+      <cards>
+        <edge name='left'>
+          <strip size='146'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B5934CD3-1E72-4B5B-AADE-6B24B47BE0C2}' />
+    </window>
+    <window class='worksheet' name='Q1 Map View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[usr:Calculation_1266074452141674502:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B2BF127D-C26D-4E8F-81AC-688D4C818E52}' />
+    </window>
+    <window class='worksheet' name='Q1 Continent (with countries)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8CFB8E2E-03CE-4548-96C6-EB1A78290624}' />
+    </window>
+    <window class='worksheet' name='Q1 Continent'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_539024587498618881:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2527B15B-1AD4-4DBC-9CBB-E6127C031CA2}' />
+    </window>
+    <window class='worksheet' name='Q1 Table View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D75D17BC-C0D2-4A8B-827C-668B92A84C73}' />
+    </window>
+    <window class='dashboard' name='Q1 Overview'>
+      <viewpoints>
+        <viewpoint name='Q1 Continent'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q1 Map View'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q1 Table View' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{09D7F84E-D432-4CE2-8FDD-5BCC5BD85B6B}' />
+    </window>
+    <window class='worksheet' name='Q2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6B6B3EB9-7B60-418B-83A2-53863E6C088F}' />
+    </window>
+    <window class='worksheet' name='Q2 by countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='118'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{823C027C-51F7-4C14-9391-7EAA579379B7}' />
+    </window>
+    <window class='worksheet' name='Q2 table'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D2D030E6-5390-4B02-9978-D097A54F8B0A}' />
+    </window>
+    <window class='worksheet' name='Q2 number'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{045ED785-00D2-481F-967E-72F878CD2CD5}' />
+    </window>
+    <window class='worksheet' name='Q2 percentage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type='filter' />
+            <card pane-specification-id='2' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8E39636E-B5EB-48B7-98F7-FF6B4B0FD442}' />
+    </window>
+    <window class='dashboard' name='Q2 Overview'>
+      <viewpoints>
+        <viewpoint name='Q2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q2 table' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{00767BC6-DDEC-451A-9274-7945544FB526}' />
+    </window>
+    <window class='worksheet' name='Q3 Bar View'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7FE7CF77-D0B6-4316-A6F6-1BDBECC93BB1}' />
+    </window>
+    <window class='worksheet' name='Q3 Monthly Distribution'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C8D1639A-AC1C-4300-8BF2-7A19225F1C19}' />
+    </window>
+    <window class='worksheet' name='Q3 Activities by Month &amp; Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E5FE0041-36D2-4267-A92C-C36EAC16160C}' />
+    </window>
+    <window class='dashboard' name='Q3 Overview'>
+      <viewpoints>
+        <viewpoint name='Q3 Activities by Month &amp; Country' />
+        <viewpoint name='Q3 Bar View'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Q3 Monthly Distribution'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{063F83EA-94A7-483F-8DA2-D064ED3E6662}' />
+    </window>
+    <window class='worksheet' name='Q4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Countries:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CA825873-B330-4D4C-829C-3CA299309E3F}' />
+    </window>
+    <window class='worksheet' name='Q5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9D2EA1E3-7F09-420D-9707-A9BE64E8D43B}' />
+    </window>
+    <window class='worksheet' name='Q5 by Ransomware Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CEDC8864-D9C6-4CBE-9BAC-080866ADA7A6}' />
+    </window>
+    <window class='worksheet' name='Q5 by Industry'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6F774074-7091-4D14-B186-A0456E87C8FE}' />
+    </window>
+    <window class='dashboard' name='Q5 Overview'>
+      <viewpoints>
+        <viewpoint name='Q5' />
+        <viewpoint name='Q5 by Ransomware Group' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{067EC092-1317-47EA-9BB8-BA029368D88F}' />
+    </window>
+    <window class='worksheet' name='Q6 (Insight 2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C18F37F9-382E-4E2C-B3E5-CAD481521424}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Q6 (Insight 3)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Calculation_508062339990908929:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Ransomware Group:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A641791F-B075-421D-90FF-56F0B854DB14}' />
+    </window>
+    <window class='dashboard' name='Q6 (Insight 3) Overview'>
+      <viewpoints>
+        <viewpoint name='Q6 (Insight 3)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Timeline (by Month)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{FD9A5D4B-90CC-4394-93F5-5B3035487E1B}' />
+    </window>
+  </windows>
+</workbook>
