@@ -3144,7 +3144,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Types of Data Stolen (by Industry: Manufacturing)
+            <run>Types of Data Stolen by Industry (Manufacturing)
 </run>
           </formatted-text>
         </title>
@@ -3197,7 +3197,7 @@
         <style>
           <style-rule element='cell'>
             <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='77' />
-            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' value='212' />
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' value='172' />
           </style-rule>
           <style-rule element='header'>
             <format attr='height-header' value='39' />
@@ -3236,7 +3236,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Types of Data Stolen (by Industry: Construction)
+            <run>Types of Data Stolen by Industry (Construction)
 </run>
           </formatted-text>
         </title>
@@ -3289,12 +3289,12 @@
         <style>
           <style-rule element='cell'>
             <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='77' />
-            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' value='146' />
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Sector:nk]' value='172' />
           </style-rule>
           <style-rule element='header'>
             <format attr='height-header' value='39' />
             <format attr='height' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='21' />
-            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='260' />
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='212' />
           </style-rule>
         </style>
         <panes>
@@ -3328,7 +3328,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run>Types of Data Stolen (by Industry: Healthcare)
+            <run>Types of Data Stolen by Industry (Healthcare)
 </run>
           </formatted-text>
         </title>
@@ -3386,7 +3386,7 @@
           <style-rule element='header'>
             <format attr='height-header' value='39' />
             <format attr='height' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='21' />
-            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='260' />
+            <format attr='width' field='[federated.0cw0c7y0e9ymz51dzoljt1aqvezl].[none:Data Type:nk]' value='244' />
           </style-rule>
         </style>
         <panes>
@@ -4292,7 +4292,7 @@
         <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98770' x='615' y='1000'>
             <zone h='98000' id='5' type-v2='layout-basic' w='98770' x='615' y='1000'>
-              <zone h='98000' id='3' name='Q5 by Industry (1)' w='34231' x='615' y='1000'>
+              <zone h='98000' id='3' name='Q5 by Industry (1)' w='33539' x='615' y='1000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4300,7 +4300,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='98000' id='9' name='Q5 by Industry (2)' w='39843' x='34846' y='1000'>
+              <zone h='98000' id='9' name='Q5 by Industry (2)' w='31000' x='34154' y='1000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -4308,7 +4308,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='98000' id='10' name='Q5 by Industry (3)' w='24696' x='74689' y='1000'>
+              <zone h='98000' id='10' name='Q5 by Industry (3)' w='34231' x='65154' y='1000'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -5059,7 +5059,7 @@
       </cards>
       <simple-id uuid='{CEDC8864-D9C6-4CBE-9BAC-080866ADA7A6}' />
     </window>
-    <window class='worksheet' name='Q5 by Industry (1)'>
+    <window class='worksheet' maximized='true' name='Q5 by Industry (1)'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -5152,7 +5152,7 @@
       <active id='-1' />
       <simple-id uuid='{067EC092-1317-47EA-9BB8-BA029368D88F}' />
     </window>
-    <window class='dashboard' maximized='true' name='Q5 Overview (industry)'>
+    <window class='dashboard' name='Q5 Overview (industry)'>
       <viewpoints>
         <viewpoint name='Q5 by Industry (1)' />
         <viewpoint name='Q5 by Industry (2)' />
